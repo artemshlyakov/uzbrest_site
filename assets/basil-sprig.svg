@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 260" fill="none">
+  <title>Веточка душистого базилика</title>
+  <g stroke="#284B32" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M116 245c-3-45 1-80 11-117 9-32 10-62 3-91" stroke-width="3.5"/>
+    <path d="M125 145c-18-19-42-27-65-39M120 180c18-24 44-40 66-45M130 104c20-18 33-33 43-52M119 213c-15-19-35-31-54-36" stroke-width="2.5"/>
+    <path d="M128 75C98 64 94 31 119 10c25 14 34 38 9 65Z" fill="#769341" stroke-width="2.5"/>
+    <path d="M122 128C86 136 47 110 38 69c47-7 82 12 84 59Z" fill="#557B37" stroke-width="2.5"/>
+    <path d="M134 108c-4-37 16-67 55-78 14 39-6 72-55 78Z" fill="#688A3B" stroke-width="2.5"/>
+    <path d="M120 180c-36 7-76-13-92-52 43-15 83 4 92 52Z" fill="#799946" stroke-width="2.5"/>
+    <path d="M121 184c3-43 37-69 83-63-4 44-35 68-83 63Z" fill="#527736" stroke-width="2.5"/>
+    <path d="M117 220c-35 9-62-5-78-35 35-14 67-1 78 35Z" fill="#607E37" stroke-width="2.5"/>
+    <path d="M121 224c9-31 33-47 65-42-3 32-27 48-65 42Z" fill="#819A48" stroke-width="2.5"/>
+  </g>
+  <g stroke="#D4D39A" stroke-width="1.35" stroke-linecap="round" opacity=".83">
+    <path d="m124 66-5-43m5 30-12-10m12-4 8-8M114 121 52 78m43 30-6-20m-8 10-20 1m14-12-6-10M141 98l39-53m-30 42 17-2m-7-15-3-15M110 171l-66-35m43 24-7-20m-13 10-18 2M133 173l58-40m-42 29 4-19m11 9 19-1M108 212l-54-22m34 14-3-14M132 216l41-24m-24 14 3-13"/>
+  </g>
+  <path d="M111 247c7 4 12 3 16-2" stroke="#284B32" stroke-width="2" stroke-linecap="round"/>
+</svg>

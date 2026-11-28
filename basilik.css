@@ -1,0 +1,54 @@
+/* Базилик: авторская адаптация восстановленной композиции Teburasi. */
+@font-face{font-family:Cormorant;src:url('assets/cormorant-italic.ttf') format('truetype');font-weight:300 700;font-style:italic;font-display:swap}
+:root{--paper:#f2e6cd;--ink:#263b2e;--red:#6b2034;--teal:#3f613c;--mustard:#d7b968}
+body{background:var(--paper)}
+.hero-shell{background:radial-gradient(ellipse at 74% 85%,#81423566,transparent 60%),radial-gradient(ellipse at 2% 20%,#772d4655,transparent 60%),#451b2b}
+.hero-graphics{background-image:url('assets/basil-pattern.svg');filter:brightness(0) invert(1);opacity:.095;background-size:600px}
+.paper-section:after{background-image:url('assets/basil-pattern.svg');opacity:.075;background-size:640px}
+.brand{gap:8px}.brand img{width:55px;height:68px;object-fit:contain;transform:rotate(-12deg)}
+.brand .brand-name{font:italic 600 25px/.9 Cormorant,Georgia,serif;letter-spacing:0;color:var(--paper)}
+.brand-name strong{font-weight:700;font-size:31px}
+.hero{height:730px}.hero h1{font:italic 600 clamp(110px,13vw,184px)/.85 Cormorant,Georgia,serif;letter-spacing:-4px;transform:rotate(-3deg);text-shadow:none;margin-top:28px;z-index:4}
+.hero-kicker{display:block;font:400 39px/1.1 var(--hand);letter-spacing:1px;margin:0 0 10px 12px}
+.hero-title-note{font:400 29px/1.2 var(--hand);margin:18px 0 0 65px;letter-spacing:0}
+.hero-copy{margin-top:40px;width:46%}.hero-slogan{font-size:55px;line-height:1.05}.hero-description{font-size:14px;line-height:1.8;max-width:380px}
+.hero-actions{gap:26px}.hero-actions .hand-link{font-size:27px;max-width:165px;line-height:1.05}
+.hero-art{width:67%;max-width:790px;right:-90px;bottom:40px;transform:none;z-index:2}.hero-art img{width:100%;filter:drop-shadow(0 20px 20px #210c1422)}
+.hero-photo{opacity:.12}.hero-stamp{display:none}.hero-topline .japanese{font:400 24px var(--hand);letter-spacing:0}
+.hero-foot{bottom:25px}.hero-foot>span{font-size:8px}.hero-foot>a{color:var(--paper)}
+.hero:after{content:"";position:absolute;right:-25px;top:5px;width:75px;height:76%;z-index:-1;opacity:.35;background:repeating-linear-gradient(45deg,transparent 0 12px,#d7b968 13px 15px,transparent 16px 23px),repeating-linear-gradient(-45deg,transparent 0 12px,#d7b968 13px 15px,transparent 16px 23px);mask-image:linear-gradient(transparent,#000 20%,#000 80%,transparent)}
+h2 em{color:var(--red)}.place-copy h2{font-size:73px}.place .lead{font-size:18px}.place-copy>p:not(.lead){font-size:14px;line-height:1.9}
+.tatinomi-note{display:flex;gap:15px;align-items:center}.tatinomi-note img{width:58px;height:72px;object-fit:contain}.tatinomi-note div{display:grid;gap:7px}.tatinomi-note strong{font:700 28px var(--display);color:var(--teal)}.tatinomi-note span{font:400 23px var(--hand)}
+.courtyard-photo{border:7px solid #e5d4ae;box-shadow:8px 10px 0 #3f613c1a}.courtyard-photo img{object-fit:cover}
+.circle-note{color:var(--teal);border-color:var(--teal)}
+.ticker{background:var(--teal);box-shadow:0 3px 0 #3f613c25}.ticker>div{font-size:35px}
+.red-button:before{background:var(--teal)}.paper-button{color:var(--red)}
+.food-spread .featured-food-image{object-fit:cover;width:100%;height:100%}.food-spread figcaption span{font-size:13px;line-height:1.6}.food-callout{color:var(--teal)}
+.menu-portal:before{background:var(--red)}.menu-portal-note{color:var(--teal)}
+.menu-atlas{display:flex;justify-content:center;padding:24px 0 40px}.atlas-page{width:min(100%,520px)}.atlas-caption{font-size:26px}.atlas-caption i{font:400 20px var(--hand)}
+.evening{background:#183d2c}.evening-photo img{opacity:.78;object-position:center}.evening-photo:after{background:linear-gradient(90deg,#123426dd,transparent 85%)}.evening-copy h2{font-size:77px}.evening-copy p{font-size:16px;line-height:1.8}.evening-copy h2 em{color:#d7b968}
+.can-sticker{background:none;border:0;box-shadow:none;transform:rotate(9deg);width:130px;height:210px}.can-sticker img{height:145px;width:110px;object-fit:contain;filter:drop-shadow(0 5px 6px #0005)}.can-sticker>span{font:700 25px/1 var(--display);color:var(--paper);margin-top:5px}
+.visit-info h2{font-size:82px}.visit-info address p{font-size:25px}.visit-info address span{font-size:13px;line-height:1.7}.visit-pending{font-size:14px;line-height:1.8;margin-top:18px}.hours{border-bottom:0}.route-heading{font-size:32px}.route-illustration img{mask-image:none;border-radius:48% 46% 43% 47%/30% 35% 38% 37%;mix-blend-mode:multiply}.route-enlarge{font-size:22px}
+.footer{background:var(--red)}.footer-word{font:italic 600 clamp(85px,18vw,230px)/1 Cormorant,Georgia,serif;letter-spacing:-4px;padding:25px 0}.footer-bottom{font-size:12px}.footer-bottom>a{font:400 25px var(--hand)}
+.catalog-toolbar{background:#f2e6cdf5}.catalog-heading h1{font-size:100px}.catalog-description{font-size:14px;line-height:1.6}.catalog-price>span{font-size:12px}.catalog-search input{font-size:16px}.catalog-categories button{font-size:25px}
+.floating-nav{background:var(--teal)}.floating-nav>button:last-child{background:#dfcf9f}.booking-dialog .eyebrow{font-size:11px}.booking-bottom>p{font-size:12px}
+@media(min-width:1440px){.hero-art{right:-65px;width:68%}.hero{height:780px}}
+@media(max-width:1000px){.hero-art{right:-90px;width:68%;bottom:65px}.hero h1{font-size:145px}.hero-copy{width:48%}.hero-slogan{font-size:47px}.hero-actions{gap:18px}.hero-actions .hand-link{font-size:24px}.place-copy h2{font-size:61px}}
+@media(max-width:820px){.hero h1{font-size:125px}.hero{height:740px}.hero-copy{width:56%}.hero-art{width:74%;right:-130px;bottom:60px}.hero-slogan{font-size:46px}.brand .brand-name{font-size:21px}.brand-name strong{font-size:27px}}
+@media(max-width:620px){
+ .header{padding-top:17px;padding-bottom:17px;gap:10px}.brand img{width:43px;height:51px}.brand .brand-name{font-size:24px}.brand-name strong{font-size:28px}
+ .hero{height:870px}.hero-topline{padding-top:21px;font-size:7px;letter-spacing:.8px}.hero-topline .japanese{font-size:19px}.hero h1{font-size:109px;letter-spacing:-2px;margin-top:27px;line-height:.87}.hero-kicker{font-size:31px;margin-bottom:10px}.hero-title-note{font-size:24px;margin:15px 0 0 35px}
+ .hero-copy{width:100%;margin-top:27px}.hero-slogan{font-size:43px;line-height:1.03}.hero-description{font-size:12px;margin-top:15px;line-height:1.7}.hero-actions{margin-top:23px;gap:24px}.hero-actions .hand-link{font-size:24px;max-width:120px}.hero-actions .ink-button{font-size:12px}
+ .hero-art{width:125%;max-width:none;right:-44px;bottom:48px}.hero-foot{bottom:22px;padding-top:14px}.hero-foot>span{font-size:6px}.hero-foot>a span{font-size:18px}.hero-photo{top:280px;width:100%;height:560px;opacity:.1}.hero:after{right:-15px;width:30px;height:63%}
+ .place-copy h2{font-size:65px}.place .lead{font-size:17px}.place-copy>p:not(.lead){font-size:14px}.place{padding-top:50px}.place-grid{gap:45px}.circle-note{right:-3px}.photo-caption{font-size:23px}.ticker>div{font-size:28px}
+ .food-spread .food-three{display:block}.food-spread{gap:35px}.food-spread figcaption span{font-size:13px}.menu-atlas{padding-inline:12px}.atlas-page{width:100%}.atlas-intro p{font-size:29px}.atlas-intro>span{font-size:10px}
+ .evening-copy h2{font-size:65px}.evening-copy p{font-size:14px}.evening-photo img{object-position:58% center;opacity:.55}.evening-inner{min-height:780px}.evening-copy{padding-top:25px}.can-sticker{bottom:80px;right:0}.evening-caption{font-size:24px}
+ .visit-info h2{font-size:75px}.visit-map{margin-top:15px}.route-heading{font-size:31px}.route-illustration{margin-top:25px}.route-enlarge{font-size:21px}.footer-word{font-size:86px;padding:30px 0;letter-spacing:-2px}.footer-bottom{font-size:11px;gap:18px}
+ .catalog-heading h1{font-size:70px}.catalog-heading .hand-note{font-size:25px}.catalog-kind button{font-size:33px}.catalog-categories button{font-size:23px}.catalog-description{font-size:13px}.mobile-nav{background:var(--teal)}
+}
+@media(max-width:370px){.hero h1{font-size:92px}.hero-slogan{font-size:39px}.hero-art{bottom:55px}.hero-topline .japanese{font-size:16px}}
+.circle-note{color:var(--paper);background:var(--teal)}
+.can-sticker:before,.can-sticker:after{display:none}.can-sticker>span{background:none;padding:5px 0}
+.hero-graphics{opacity:.065}.paper-section:after{opacity:.055}
+.booking-notice{font-size:14px;line-height:1.6;padding:14px 0 20px;color:var(--teal);border-bottom:1px solid #3f613c33;margin-bottom:20px}
+#booking-form :disabled{cursor:default;opacity:.55}

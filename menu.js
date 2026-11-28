@@ -14,16 +14,8 @@
   let mode = 'photos';
   let landingScroll = 0;
   let rendered = false;
-  const foodFilters = [
-    ['all', 'Вся кухня'], ['Стартеры', 'Стартеры'], ['Горячие закуски', 'Закуски'],
-    ['Цукемоно', 'Цукемоно'], ['Рамены', 'Рамены'], ['Агемоно', 'Во фритюре'],
-    ['Оцунами', 'Рис и лапша'], ['Десерты', 'Сладкое']
-  ];
-  const barFilters = [
-    ['all', 'Весь бар'], ['cocktails', 'Коктейли'], ['sake', 'Саке'],
-    ['wine', 'Вино'], ['beer', 'Пиво'], ['tinctures', 'Настойки'],
-    ['spirits', 'Крепкое'], ['soft', 'Без алкоголя'], ['tea', 'Чай и кофе'], ['hotdrinks', 'Горячие']
-  ];
+  const foodFilters = [['all', 'Вся кухня'], ['Горячие блюда', 'Горячее'], ['Супы', 'Супы'], ['Мангал', 'Мангал'], ['Выпечка', 'Выпечка'], ['Салаты', 'Салаты'], ['Десерты', 'Сладкое']];
+  const barFilters = [['all', 'Все напитки']];
   const formatter = new Intl.NumberFormat('ru-RU');
   function asset(src) { return window.TEBURASI_ASSETS?.[src] || src; }
   function element(tag, className, text) {
@@ -40,18 +32,7 @@
     return String(value) + ' ' + ending;
   }
   function normalize(text) { return String(text || '').toLocaleLowerCase('ru').replaceAll('ё', 'е').normalize('NFD').replace(/[\u0300-\u036f]/g, ''); }
-  function barGroup(item) {
-    const name = item.category.toLocaleLowerCase('ru');
-    if (name.includes('чай') || name.includes('кофе')) return 'tea';
-    if (name.includes('безалкоголь') || name === 'вода') return 'soft';
-    if (name.includes('горячие напитки')) return 'hotdrinks';
-    if (name.includes('коктейл')) return 'cocktails';
-    if (name.includes('вино')) return 'wine';
-    if (name.includes('пиво') || name.includes('сидр')) return 'beer';
-    if (name.includes('настое') || name.includes('настой')) return 'tinctures';
-    if (name.includes('саке') || name.includes('сётю') || name.includes('умэсю')) return 'sake';
-    return 'spirits';
-  }
+  function barGroup() { return 'all'; }
   function photoNode(item, className = '') {
     const frame = element('div', 'catalog-photo ' + className);
     const photo = item.photo;
@@ -195,7 +176,7 @@
         const section = element('section', 'bar-menu-group');
         const list = element('div', 'bar-menu-list');
         drinks.forEach(item => list.append(drinkRow(item)));
-        section.append(element('h2', 'catalog-group-title', 'Бар'), list);
+        section.append(element('h2', 'catalog-group-title', 'Напитки'), list);
         results.append(section);
       }
       rendered = true;
@@ -206,15 +187,6 @@
       if (!grouped.has(item.category)) grouped.set(item.category, []);
       grouped.get(item.category).push(item);
     });
-    if (!words.length && kind === 'bar' && (category === 'all' || category === 'cocktails')) {
-      const intro = element('div', 'bar-catalog-intro');
-      const image = document.createElement('img');
-      image.src = asset('assets/instagram/canned-cocktail.webp');
-      image.alt = 'Фирменный коктейль Тебураси в банке';
-      image.loading = 'lazy';
-      intro.append(image, element('p', '', 'Жить. Пить. Любить.\nПо баночке?'));
-      results.append(intro);
-    }
     grouped.forEach((items, groupName) => {
       const group = element('section', items[0].food ? 'food-menu-group' : 'bar-menu-group');
       const title = element('h2', 'catalog-group-title', groupName === 'Оцунами' ? 'Рис и лапша' : groupName);
@@ -234,7 +206,7 @@
         button.setAttribute('aria-label', 'Открыть лист: ' + page.title);
         const image = document.createElement('img');
         image.src = asset(page.src);
-        image.alt = page.title + ' — оригинальное рисованное меню Тебураси';
+        image.alt = page.title + ' — рисованная коллекция Базилика';
         image.width = page.width;
         image.height = page.height;
         image.loading = 'lazy';
@@ -247,7 +219,7 @@
         const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
         use.setAttribute('href', '#ui-arrow');
         icon.append(use);
-        caption.append(element('i', '', String(index + 1).padStart(2, '0')), element('span', '', page.title), icon);
+        caption.append(element('i', '', 'Базилик'), element('span', '', page.title), icon);
         button.append(image, caption);
         atlas.append(button);
       });
@@ -269,7 +241,7 @@
     landing.hidden = open;
     page.hidden = !open;
     document.body.classList.toggle('catalog-open', open);
-    document.title = open ? 'Меню — Тебураси' : initialTitle;
+    document.title = open ? 'Меню — Чайхана Базилик' : initialTitle;
     if (open) {
       if (!rendered) { renderCategories(); renderCatalog(); }
       if (changed) {

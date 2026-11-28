@@ -76,12 +76,9 @@ document.querySelectorAll('[role="tablist"]').forEach(list => {
 });
 
 const photos = [
-  ['courtyard.jpg', 'Наш японский двор на Страстном'],
-  ['interior-1.jpg', 'Фонари, вывески и немного Токио'],
-  ['instagram/evening-drink-pour.webp', 'Готовим хороший вечер'],
-  ['gyoza.jpg', 'Гёдза с креветками'],
-  ['ramen.jpg', 'Большая миска рамена'],
-  ['udon.jpg', 'Лапша решает']
+  ['basilik/dastarkhan.webp', 'За общим столом — иллюстрация Базилика'],
+  ['basilik/vladimir.webp', 'Владимир с восточным акцентом'],
+  ['basilik/illustrated-menu.webp', 'Наш рисованный дастархан']
 ];
 const drawings = window.TEBURASI_MENU.pages.map(page => [page.src.replace(/^assets\//, ''), page.title]);
 let galleryItems = photos;
@@ -112,7 +109,7 @@ window.TeburasiGallery = { open: openGallery };
 
 document.querySelector('[data-route-preview]').addEventListener('click', () => {
   openGallery(0, false);
-  galleryItems = [['route-illustration-v4.webp', 'От метро на Страстной — и во двор к своим']];
+  galleryItems = [['basilik/vladimir.webp', 'Владимир с восточным акцентом — художественная иллюстрация']];
   galleryIndex = 0;
   gallery.classList.add('art-gallery', 'route-gallery');
   gallery.querySelector('.gallery-zoom').setAttribute('aria-label', 'Увеличить схему');
@@ -227,23 +224,8 @@ calendarDays.addEventListener('keydown', event => {
     enabled[Math.max(0, Math.min(enabled.length - 1, newIndex))]?.focus();
   }
 });
-function desiredTimes(date) {
-  const day = date.getUTCDay();
-  const start = day === 0 || day === 6 ? 14 * 60 : 15 * 60;
-  const end = day === 5 || day === 6 ? 26 * 60 : 24 * 60;
-  const current = moscowDateParts();
-  const currentIso = String(current.year) + '-' + String(current.month).padStart(2, '0') + '-' + String(current.day).padStart(2, '0');
-  const cutoff = isoDate(date) === currentIso ? current.hour * 60 + current.minute + 30 : 0;
-  const slots = [];
-  for (let minute = start; minute < end; minute += 30) {
-    if (minute < cutoff) continue;
-    slots.push({
-      value: String(Math.floor(minute / 60) % 24).padStart(2, '0') + ':' + String(minute % 60).padStart(2, '0'),
-      dayOffset: Math.floor(minute / (24 * 60))
-    });
-  }
-  return slots;
-}
+// Booking slots will be supplied by the restaurant after opening hours are confirmed.
+function desiredTimes() { return []; }
 let timeDayOffset = 0;
 function renderTimes() {
   const target = document.querySelector('#time-options');
@@ -379,7 +361,7 @@ form.addEventListener('submit', async event => {
   const serviceDate = new Date(selectedDate);
   serviceDate.setUTCDate(serviceDate.getUTCDate() + desired.dayOffset);
   const request = {
-    venue: 'teburasi',
+    venue: 'basilik',
     serviceDate: dateInput.value,
     startsAt: isoDate(serviceDate) + 'T' + timeInput.value + ':00+03:00',
     timezone: 'Europe/Moscow',
@@ -400,11 +382,11 @@ form.addEventListener('submit', async event => {
       timeValue.textContent = 'Выбрать время';
       updateGuests(0);
     } else {
-      showError('Не получилось отправить заявку. Свяжись с нами — поможем с бронью.');
+      showError('Онлайн-бронирование пока не открыто. Скоро здесь можно будет оставить заявку.');
       fallback.hidden = false;
     }
   } catch {
-    showError('Не получилось отправить заявку. Свяжись с нами — поможем с бронью.');
+    showError('Онлайн-бронирование пока не открыто. Скоро здесь можно будет оставить заявку.');
     fallback.hidden = false;
   } finally {
     submit.disabled = false;
