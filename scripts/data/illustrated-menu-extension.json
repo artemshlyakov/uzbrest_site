@@ -1,0 +1,186 @@
+{
+  "atlases": {
+    "4": {
+      "file": "assets/basilik/dish-atlas-4.webp",
+      "columns": 3,
+      "rows": 4,
+      "rowBounds": [
+        0,
+        278,
+        526,
+        782,
+        1024
+      ]
+    },
+    "5": {
+      "file": "assets/basilik/dish-atlas-5.webp",
+      "columns": 3,
+      "rows": 4,
+      "rowBounds": [
+        0,
+        278,
+        526,
+        782,
+        1024
+      ]
+    },
+    "6": {
+      "file": "assets/basilik/dish-atlas-6.webp",
+      "columns": 3,
+      "rows": 4,
+      "rowBounds": [
+        0,
+        250,
+        514,
+        775,
+        1024
+      ]
+    }
+  },
+  "art": {
+    "beefsteak": [
+      4,
+      0
+    ],
+    "goulash": [
+      4,
+      1
+    ],
+    "beef-stew": [
+      4,
+      2
+    ],
+    "kurutob": [
+      4,
+      3
+    ],
+    "dumplings-cream": [
+      4,
+      4
+    ],
+    "fried-egg": [
+      4,
+      5
+    ],
+    "solyanka": [
+      4,
+      6
+    ],
+    "hotdog-potatoes": [
+      4,
+      7
+    ],
+    "hotdog-bbq": [
+      4,
+      8
+    ],
+    "hotdog-wrap": [
+      4,
+      9
+    ],
+    "shawarma-wrap": [
+      4,
+      10
+    ],
+    "shawarma-pita": [
+      4,
+      11
+    ],
+    "shawarma-plate": [
+      5,
+      0
+    ],
+    "shawarma-beef-plate": [
+      5,
+      1
+    ],
+    "grilled-breast": [
+      5,
+      2
+    ],
+    "cheese-breast": [
+      5,
+      3
+    ],
+    "chicken-cutlet": [
+      5,
+      4
+    ],
+    "mushroom-thigh": [
+      5,
+      5
+    ],
+    "buckwheat": [
+      5,
+      6
+    ],
+    "baked-potatoes": [
+      5,
+      7
+    ],
+    "pasta": [
+      5,
+      8
+    ],
+    "rice": [
+      5,
+      9
+    ],
+    "lavash": [
+      5,
+      10
+    ],
+    "greek-salad": [
+      5,
+      11
+    ],
+    "korean-carrot": [
+      6,
+      0
+    ],
+    "olivier": [
+      6,
+      1
+    ],
+    "caesar": [
+      6,
+      2
+    ],
+    "jalapeno": [
+      6,
+      3
+    ],
+    "cola": [
+      6,
+      4
+    ],
+    "apple-cola": [
+      6,
+      5
+    ],
+    "water": [
+      6,
+      6
+    ],
+    "dried-fruit-compote": [
+      6,
+      7
+    ],
+    "saperavi-lemonade": [
+      6,
+      8
+    ],
+    "juice": [
+      6,
+      9
+    ],
+    "juice-glass": [
+      6,
+      10
+    ],
+    "shawarma-cheese": [
+      6,
+      11
+    ]
+  }
+}

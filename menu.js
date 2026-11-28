@@ -14,7 +14,8 @@
   let mode = 'photos';
   let landingScroll = 0;
   let rendered = false;
-  const foodFilters = [['all', 'Вся кухня'], ['Горячие блюда', 'Горячее'], ['Супы', 'Супы'], ['Мангал', 'Мангал'], ['Выпечка', 'Выпечка'], ['Салаты', 'Салаты'], ['Десерты', 'Сладкое']];
+  const foodLabels = { 'Горячие блюда': 'Горячее', 'Десерты': 'Сладкое' };
+  const foodFilters = [['all', 'Вся кухня'], ...data.foodCategories.map(name => [name, foodLabels[name] || name])];
   const barFilters = [['all', 'Все напитки']];
   const formatter = new Intl.NumberFormat('ru-RU');
   function asset(src) { return window.TEBURASI_ASSETS?.[src] || src; }
@@ -25,6 +26,27 @@
     return node;
   }
   function money(value) { return value == null ? '' : formatter.format(value) + ' ₽'; }
+  function offers(item) {
+    const seen = new Set();
+    return [{ portion: item.portion, price: item.price }, ...(item.variants || [])].filter(offer => {
+      const portion = String(offer.portion || '').toLowerCase().replace(/\s+/g, '');
+      const match = portion.match(/([\d.,]+)(кг|г|мл|л)/);
+      const size = match ? Number(match[1].replace(',', '.')) * (match[2] === 'кг' || match[2] === 'л' ? 1000 : 1) + (match[2].includes('г') ? 'g' : 'ml') : portion;
+      const key = size + ':' + offer.price;
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+  function extraOffers(item) {
+    const list = element('div', 'catalog-offers');
+    offers(item).slice(1).forEach(offer => {
+      const row = element('div');
+      row.append(element('span', '', offer.portion), element('b', '', money(offer.price)));
+      list.append(row);
+    });
+    return list;
+  }
   function positionCount(value) {
     const last = value % 10;
     const hundred = value % 100;
@@ -67,6 +89,9 @@
     document.querySelector('#dish-description').textContent = item.description;
     document.querySelector('#dish-portion').textContent = item.portion;
     document.querySelector('#dish-price').textContent = money(item.price);
+    dishDialog.querySelector('.catalog-offers')?.remove();
+    const extras = extraOffers(item);
+    if (extras.childElementCount) dishDialog.querySelector('.dish-copy').append(extras);
     dishDialog.showModal();
     document.body.classList.add('modal-open');
   }
@@ -87,6 +112,9 @@
     const line = element('div', 'catalog-price');
     line.append(element('strong', '', money(item.price)), element('span', '', item.portion));
     card.append(line);
+    const extras = extraOffers(item);
+    if (!extras.childElementCount) extras.setAttribute('aria-hidden', 'true');
+    card.append(extras);
     return card;
   }
   function drinkRow(item) {
@@ -95,22 +123,11 @@
     copy.append(element('h3', '', item.name));
     if (item.description) copy.append(element('p', '', item.description));
     const prices = element('div', 'bar-menu-prices');
-    if (item.variants.length) {
-      const options = [{ portion: item.portion, price: item.price }, ...item.variants];
-      const seen = new Set();
-      options.forEach(variant => {
-        const key = String(variant.portion) + ':' + String(variant.price);
-        if (seen.has(key)) return;
-        seen.add(key);
-        const line = element('span');
-        line.append(element('small', '', variant.portion || variant.volume || ''), element('b', '', money(variant.price)));
-        prices.append(line);
-      });
-    } else {
+    offers(item).forEach(offer => {
       const line = element('span');
-      line.append(element('small', '', item.portion), element('b', '', money(item.price)));
+      line.append(element('small', '', offer.portion), element('b', '', money(offer.price)));
       prices.append(line);
-    }
+    });
     row.append(copy, prices);
     return row;
   }
@@ -150,7 +167,7 @@
         if (text.includes('говя')) keywords += ' говядина beef ';
         if (text.includes('свин')) keywords += ' свинина pork ';
         if (text.includes('рамен')) keywords += ' ramen ';
-        const haystack = normalize(item.name + ' ' + item.description + ' ' + item.category + keywords);
+        const haystack = normalize(item.name + ' ' + item.description + ' ' + item.category + ' ' + (item.source?.aliases || []).join(' ') + keywords);
         return words.every(word => haystack.includes(word));
       }
       if (item.food !== (kind === 'food')) return false;

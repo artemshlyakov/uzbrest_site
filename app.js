@@ -404,3 +404,13 @@ if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-mot
   }, { threshold: 0.12 });
   document.querySelectorAll('.reveal').forEach(element => observer.observe(element));
 }
+
+// Visual notice only. No analytics or tracking scripts are installed here.
+const cookieNotice = document.querySelector('#cookie-notice');
+let cookiesAccepted = false;
+try { cookiesAccepted = localStorage.getItem('basilik-cookie-notice') === 'accepted'; } catch {}
+cookieNotice.hidden = cookiesAccepted;
+document.querySelector('#accept-cookies').addEventListener('click', () => {
+  cookieNotice.hidden = true;
+  try { localStorage.setItem('basilik-cookie-notice', 'accepted'); } catch {}
+});

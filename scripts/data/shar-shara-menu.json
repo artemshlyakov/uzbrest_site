@@ -1,0 +1,3003 @@
+{
+  "source": "https://shar-shara.ru/",
+  "apiBase": "https://api.shar-shara.ru/api",
+  "fetchedAt": "2026-11-28T16:55:28.306725+00:00",
+  "restaurant": {
+    "id": "025fdc22-412b-401d-b181-a87dd740f0c6",
+    "slug": "shar-shara",
+    "name": "Shar-Shara"
+  },
+  "branches": [
+    {
+      "id": "seed-branch-mangal",
+      "name": "Кафе Шар-Шара — Кудрово",
+      "address": "г. Кудрово, ул. Центральная, 15А",
+      "lat": "59.907875",
+      "lng": "30.505727",
+      "phone": "+7 988 996-16-71",
+      "workingHours": {
+        "fri": "00:00-24:00",
+        "mon": "00:00-24:00",
+        "sat": "00:00-24:00",
+        "sun": "00:00-24:00",
+        "thu": "00:00-24:00",
+        "tue": "00:00-24:00",
+        "wed": "00:00-24:00"
+      }
+    },
+    {
+      "id": "seed-branch-kudrovo",
+      "name": "Мангал-Кебаб — Кудрово",
+      "address": "г. Кудрово, пр. Строителей, 19",
+      "lat": "59.902515",
+      "lng": "30.523253",
+      "phone": "+7 988 996-16-71",
+      "workingHours": {
+        "fri": "00:00-24:00",
+        "mon": "00:00-24:00",
+        "sat": "00:00-24:00",
+        "sun": "00:00-24:00",
+        "thu": "00:00-24:00",
+        "tue": "00:00-24:00",
+        "wed": "00:00-24:00"
+      }
+    },
+    {
+      "id": "seed-branch-north",
+      "name": "Чайхона Шар-Шара — Коллонтай",
+      "address": "СПб, ул. Коллонтай, 32 к1Б",
+      "lat": "59.924258",
+      "lng": "30.486805",
+      "phone": "+7 988 996-16-71",
+      "workingHours": {
+        "fri": "00:00-24:00",
+        "mon": "00:00-24:00",
+        "sat": "00:00-24:00",
+        "sun": "00:00-24:00",
+        "thu": "00:00-24:00",
+        "tue": "00:00-24:00",
+        "wed": "00:00-24:00"
+      }
+    },
+    {
+      "id": "seed-branch-center",
+      "name": "Чайхона Шар-Шара — Пятилеток",
+      "address": "СПб, пр. Пятилеток, 8 к1в",
+      "lat": "59.921787",
+      "lng": "30.459385",
+      "phone": "+7 988 996-16-71",
+      "workingHours": {
+        "fri": "00:00-24:00",
+        "mon": "00:00-24:00",
+        "sat": "00:00-24:00",
+        "sun": "00:00-24:00",
+        "thu": "00:00-24:00",
+        "tue": "00:00-24:00",
+        "wed": "00:00-24:00"
+      }
+    }
+  ],
+  "menus": {
+    "seed-branch-mangal": [
+      {
+        "id": "b64aff9b-2e04-4e66-9f97-e4f56d2ebcf2",
+        "name": "Супы",
+        "dishes": [
+          {
+            "id": "cc643972-75d9-40cb-bb1d-01255f8529c8",
+            "name": "Суп в горшочке",
+            "description": "Ароматная баранина с картофелем и морковью, томлёная со специями в душистом бульоне. Традиционный вкус, который согреет душу.",
+            "ingredients": "баранина, картофель, морковь, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-8.png",
+            "variants": [
+              {
+                "id": "557a43e7-07f8-4480-9057-f99e4084294a",
+                "label": "350 г",
+                "price": "475"
+              }
+            ]
+          },
+          {
+            "id": "a34c2789-2461-4be0-b5d7-f14c2b02d218",
+            "name": "Солянка халяль",
+            "description": "Яркий вкус томатной пасты и специй с лимоном и сметаной.",
+            "ingredients": "говядина, копчёности, солёные огурцы, оливки, лук, морковь, помидоры, картофель, томатная паста, специи, зелень, лимон, сметана",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-8.png",
+            "variants": [
+              {
+                "id": "79ddf7ba-f70b-4a19-88cc-52709f3fa49b",
+                "label": "400 г",
+                "price": "450"
+              }
+            ]
+          },
+          {
+            "id": "502d20bf-9cc8-47f0-9292-b32b9ebdb555",
+            "name": "Шурпа с бараниной",
+            "description": "Насыщенный бульон, приготовленный на медленном огне с добавленнием свежей зелени. Сытное, полезное и по-настоящему восточное блюдо!",
+            "ingredients": "баранина, репчатый лук, морковь, картофель, болгарский перец, помидоры, специи, зелень.",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-9.png",
+            "variants": [
+              {
+                "id": "fec58e10-3679-47ed-91f9-754f5d4143af",
+                "label": "350г",
+                "price": "475"
+              }
+            ]
+          },
+          {
+            "id": "555c7d64-d4b9-4e52-9fb1-7ddcd3e8ab09",
+            "name": "Шурпа с говядиной",
+            "description": "Наваристый и ароматный бульон с нежными кусочками мяса, свежими овощами и натуральными специями.",
+            "ingredients": "говядина, репчатый лук, морковь, картофель, болгарский перец, помидоры, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-9.png",
+            "variants": [
+              {
+                "id": "72e4296c-72c8-407b-97f3-afd4c82fcfe9",
+                "label": "400 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "0a018072-dd49-4383-a89a-b47839e8a768",
+            "name": "Пельмени с бульоном",
+            "description": "Аппетитные пельмени, подаются с горячим наваристым бульоном – просто и вкусно.",
+            "ingredients": "нежное мясо, тонкое тесто, прозрачный бульон, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0269-Photoroom-4.png",
+            "variants": [
+              {
+                "id": "9a8eb290-d482-457b-99ac-7158fd73adbe",
+                "label": "300 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "c05e54c0-1d18-49d0-86bd-4e43927d3ba7",
+            "name": "Мастава",
+            "description": "Густой ароматный суп, сваренный на медленном огне из свежих овощей и мягкой говядины. Тёплый восточный вкус.",
+            "ingredients": "говядина, рис, картофель, морковь, лук, помидоры, болгарский перец, чеснок, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-19.png",
+            "variants": [
+              {
+                "id": "0761cba2-b3f6-4354-9987-4e4eae8857eb",
+                "label": "300 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "82e17db7-887a-4096-a754-cea7db433681",
+            "name": "Лагман",
+            "description": "Насыщенный мясной суп с упругой домашней лапшой, овощами и пряным букетом восточных специй.",
+            "ingredients": "говядина, лапша ручной тяжки, болгарский перец, морковь, редька, чеснок, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-18.png",
+            "variants": [
+              {
+                "id": "cbfcdc61-0d34-468c-8202-cbe4615ab2d3",
+                "label": "400 г",
+                "price": "463"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3e83ca5c-5804-4f7a-a3cd-cdedcd2790ea",
+        "name": "Горячие блюда",
+        "dishes": [
+          {
+            "id": "e6ed66d0-1c84-4208-b86b-49b399d03a67",
+            "name": "Чупонча",
+            "description": "Ароматное узбекское жаркое с нежной бараниной и золотистым картофелем, томлёное в казане с овощами и пряностями.",
+            "ingredients": "баранина, картофель, лук, морковь, томаты, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-10.png",
+            "variants": [
+              {
+                "id": "4e050e79-1207-4285-91c0-e7ce35b741cc",
+                "label": "1 кг",
+                "price": "2500"
+              }
+            ]
+          },
+          {
+            "id": "a7bd5ba6-8b87-4975-97b4-b3a00f1c57a3",
+            "name": "Лагман жареный",
+            "description": "Сытное и ароматное блюдо. Нежные кусочки говядины с овощами, специями и лапшой. Жареное яйцо, придаёт блюду особую сочность и насыщенность.",
+            "ingredients": "говядина, лапша, болгарский перец, лук, морковь, чеснок, помидоры, яйцо, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-10.png",
+            "variants": [
+              {
+                "id": "506185f1-b783-494b-8a50-911b476c40f5",
+                "label": "400 г",
+                "price": "500"
+              }
+            ]
+          },
+          {
+            "id": "2650e5c9-c5ca-4d68-8f73-d36d97c286af",
+            "name": "Баранина жареная",
+            "description": "Нежные кусочки баранины с золотистой корочкой и насыщенным вкусом.",
+            "ingredients": "баранина, лук, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-12.png",
+            "variants": [
+              {
+                "id": "46f4743f-0d7c-4e0c-a358-69ddea89515e",
+                "label": "1 кг",
+                "price": "2875"
+              },
+              {
+                "id": "bccd9867-9777-45e5-b3b5-02f1dbf8e33d",
+                "label": "0,5 кг",
+                "price": "1600"
+              },
+              {
+                "id": "1b1cbd0d-5701-4a53-ba8e-0c3ad600f3cf",
+                "label": "0,3 кг",
+                "price": "900"
+              }
+            ]
+          },
+          {
+            "id": "e7bbc24c-889c-4d8c-b5bd-2d61480aba9c",
+            "name": "Говядина жареная",
+            "description": "Сочная говядина, обжаренная до румяной корочки, с луком и ароматными специями.",
+            "ingredients": "говядина, лук, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-12.png",
+            "variants": [
+              {
+                "id": "ffe64e84-93a2-4eeb-b931-be6b4086c58e",
+                "label": "1 кг",
+                "price": "2875"
+              },
+              {
+                "id": "95e67dd6-f741-4aff-843d-cd658fd45330",
+                "label": "0,5 кг",
+                "price": "1600"
+              },
+              {
+                "id": "4a2e98cf-7fb8-49f1-b72b-86b452ea1875",
+                "label": "0,3 кг",
+                "price": "900"
+              }
+            ]
+          },
+          {
+            "id": "7cc23e26-de2e-4604-af35-4c48cf73ede2",
+            "name": "Гуляш",
+            "description": "На выбор три гарнира: картофельное пюре, гречка и макароны. Домашний вкус и сытость на весь день.",
+            "ingredients": "гречневая крупа/макароны/картофель на выбор, говядина, томатная подливка, специи, зелень,, молоко, сливочное масло, соль",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0269-Photoroom-5.png",
+            "variants": [
+              {
+                "id": "57a07593-4948-4a0e-a7c4-318f4186cd3e",
+                "label": "450 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "bc337c76-28b3-4eb6-8ae0-e54aa9faec2b",
+            "name": "Бифштекс",
+            "description": "Бифштекс из сочного куриного фарша с жареным яйцом и густой томатной подливкой.",
+            "ingredients": "куриная котлета, гречка отварная, макароны, жареное яйцо, томатная подливка, специи, зелень, картофель, молоко, сливочное масло, соль",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-5.png",
+            "variants": [
+              {
+                "id": "72dd32dd-a069-42dd-a13e-bc3020ef8e15",
+                "label": "450 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "37d72bec-a018-4643-82da-1b93b750775f",
+            "name": "Пельмени со сметаной",
+            "description": "Нежные пельмешки ручной лепки с сочной начинкой, подаются со свежей сметаной.",
+            "ingredients": "тесто, мясной фарш, сметана, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-13.png",
+            "variants": [
+              {
+                "id": "1531d519-58b6-4ffd-b9d0-589edb77af70",
+                "label": "300 г",
+                "price": "500"
+              }
+            ]
+          },
+          {
+            "id": "17987958-415a-4a54-8b9d-8c8def1b6be0",
+            "name": "Манты",
+            "description": "Пышные паровые пирожки с сочной мясной начинкой, подаются со сметанойи зеленью.",
+            "ingredients": "говядина, говяжий жир, репчатый лук, специи, тесто",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-13.png",
+            "variants": [
+              {
+                "id": "6158f233-2266-4d9c-98b6-6b04d078cb28",
+                "label": "350 г (5 шт)",
+                "price": "463"
+              },
+              {
+                "id": "b51f7d33-4dbb-4598-8916-660d8d17eb2a",
+                "label": "50 г (1 шт)",
+                "price": "100"
+              }
+            ]
+          },
+          {
+            "id": "ea51fc2b-6e81-48bc-a186-91e078136ab7",
+            "name": "Курутоб с мясом/без мяса",
+            "description": "Традиционное таджикское блюдо на основе лепёшек фатир, залитых кисломолочной заливкой (катик), с жаренным луком, зеленью, свежими овощами. Подаётся тёплым.",
+            "ingredients": "фатир, катик (или мацони), обжаренный лук, помидоры, огурцы, кинза, укроп, соль",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-15.png",
+            "variants": [
+              {
+                "id": "c02773bc-2a1e-4e03-8358-f2c58f8c3774",
+                "label": "500г",
+                "price": "650"
+              },
+              {
+                "id": "4bfd1a46-cac6-4c3f-bd52-5db14817ad9b",
+                "label": "вариант 2",
+                "price": "563"
+              }
+            ]
+          },
+          {
+            "id": "5f2b3fb6-81f1-45a6-a9f2-72b9560384cf",
+            "name": "Яйцо жареное",
+            "description": "Идеально на завтрак.",
+            "ingredients": "яйцо, масло растительное, соль",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-15.png",
+            "variants": [
+              {
+                "id": "78bae369-7925-4295-b6a0-fa772a255808",
+                "label": "1 шт",
+                "price": "100"
+              }
+            ]
+          },
+          {
+            "id": "f0ad3b13-201e-4a25-bb08-d3f5682084ef",
+            "name": "Казан-Кебаб (баранина)",
+            "description": "Сочное мясо, приготовленное в казане, обжаренное до румяной корочки с луком, специями и картофелем.",
+            "ingredients": "баранина, картофель, лук, растительное масло, чеснок, зира, кориандр, чёрный перец, соль, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-18.png",
+            "variants": [
+              {
+                "id": "05bb17bb-f227-40a3-8017-4c8761a525e6",
+                "label": "400 г",
+                "price": "688"
+              }
+            ]
+          },
+          {
+            "id": "e05f0b9e-ce18-425d-ba27-568dfa9db52f",
+            "name": "Казан-Кебаб (говядина)",
+            "description": "Нежная говядина, обжаренная в казане с золотистым луком, ароматными специями и картофелем.",
+            "ingredients": "говядина, картофель, лук, растительное масло, чеснок, зира, кориандр, чёрный перец, соль, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-17.png",
+            "variants": [
+              {
+                "id": "e79bbb35-ceac-4fbb-886d-f61151226a15",
+                "label": "400 г",
+                "price": "688"
+              }
+            ]
+          },
+          {
+            "id": "9c611de3-df0f-4488-94ba-1fe4de0b70d2",
+            "name": "Плов",
+            "description": "Настоящая классика восточной кухни, приготовленная по традиционному рецепту.",
+            "ingredients": "говядина, рис, морковь, репчатый лук, чеснок, нут, ароматные специи, растительное масло",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-14.png",
+            "variants": [
+              {
+                "id": "c584c5e2-1c7d-406b-8496-90cb74e47f54",
+                "label": "1 порция, 400 г",
+                "price": "463"
+              },
+              {
+                "id": "dbe4bfdb-66b5-4801-8a9b-5f404fa875b2",
+                "label": "1 кг",
+                "price": "4125"
+              }
+            ]
+          },
+          {
+            "id": "bc0cb18b-2b2e-4b84-a1f5-5dbf617e9c87",
+            "name": "Люля кебаб",
+            "description": "Ароматный фарш из баранины на мангале, с пряностями и хрустящей корочкой.",
+            "ingredients": "баранина, лук, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-14.png",
+            "variants": [
+              {
+                "id": "fe59a4e7-170a-49b0-b928-afd534128884",
+                "label": "120 г",
+                "price": "300"
+              },
+              {
+                "id": "2ed07174-fbad-47de-be53-c8fed10c5f01",
+                "label": "170 г",
+                "price": "525"
+              }
+            ]
+          },
+          {
+            "id": "49078e1a-879f-4ee9-a0a1-5f7891dee43e",
+            "name": "Шашлык (баранина)",
+            "description": "Мягкая, сочная баранина на углях, пропитанная дымком и специями.",
+            "ingredients": "баранина, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-16.png",
+            "variants": [
+              {
+                "id": "3dedcdc2-184a-4fcb-ad4c-228b9bc35814",
+                "label": "170 г",
+                "price": "588"
+              }
+            ]
+          },
+          {
+            "id": "394f54db-2d89-4f6f-97d8-107ed869f0ef",
+            "name": "Шашлык (говядина)",
+            "description": "Сочная говядина, обжаренная до румяной корочки, с луком и ароматными специями.",
+            "ingredients": "говядина, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-16.png",
+            "variants": [
+              {
+                "id": "60dd3849-0be3-4c5e-8236-791740427c39",
+                "label": "170 г",
+                "price": "588"
+              }
+            ]
+          },
+          {
+            "id": "e505ba1f-3e4d-42ca-b312-72a36f2e4519",
+            "name": "Шашлык (курица)",
+            "description": "Нежное куриное филе, маринованное в специях и травах, приготовленное на углях.",
+            "ingredients": "курица, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-17.png",
+            "variants": [
+              {
+                "id": "cf4c3124-7075-430d-a687-71f685a58424",
+                "label": "170 г",
+                "price": "500"
+              }
+            ]
+          },
+          {
+            "id": "155d9542-f4f1-44a1-9169-5ebf489ec442",
+            "name": "Жаркое (говядина)",
+            "description": "Говядина, томлёная с овощами и специями по старинному рецепту.",
+            "ingredients": "говядина, картофель, морковь, лук, чеснок, томатная паста, лавровый лист, чёрный перец, соль, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_8472-1-1.png",
+            "variants": [
+              {
+                "id": "e9f716d4-b915-41aa-a425-7b4f80d0ccc2",
+                "label": "500 г",
+                "price": "450"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1f704c77-7cd4-4d73-a5fe-38850b4e309a",
+        "name": "Выпечка",
+        "dishes": [
+          {
+            "id": "090db844-c2ed-4de5-af5f-faa8430f96cb",
+            "name": "Лепёшка из тандыра",
+            "description": "Пышная лепёшка с хрустящей корочкой и нежной мякотью, приготовленная в традиционной глиняной печи. Идеально сочетается с мясными блюдами и супами.",
+            "ingredients": "мука, вода, дрожжи/закваска, соль, кунжут",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-11.png",
+            "variants": [
+              {
+                "id": "b1c97ba8-c150-4cc6-8124-7d290e765e57",
+                "label": "1 шт",
+                "price": "85"
+              },
+              {
+                "id": "0c12136e-aa66-413e-91de-58a61752821a",
+                "label": "половинка",
+                "price": "43"
+              }
+            ]
+          },
+          {
+            "id": "342c9718-3833-49fa-9f4a-ace21be4fb88",
+            "name": "Самса из тандыра",
+            "description": "Сочное говяжье мясо заворачивается в хрустящее слоёное тесто и выпекается до золотистой корочки.",
+            "ingredients": "мясо, говяжий жир, репчатый лук, ароматные специи, слоёное тесто",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-11.png",
+            "variants": [
+              {
+                "id": "2cd4eee0-cc43-41ad-ab5c-2feca2b28dd4",
+                "label": "1 шт",
+                "price": "188"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ed7521e0-0777-4a53-848d-c161c2757207",
+        "name": "Салаты",
+        "dishes": [
+          {
+            "id": "0dc8d7ff-cf89-410c-ab89-35cff0de9c30",
+            "name": "Весенний салат",
+            "description": "Свежий, лёгкий, с молодой зеленью.",
+            "ingredients": "помидоры, огурцы, лук, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-6.png",
+            "variants": [
+              {
+                "id": "015be39b-a4e3-4934-a355-ffc4cd4c611d",
+                "label": "300 г",
+                "price": "382"
+              }
+            ]
+          },
+          {
+            "id": "39b4a9e2-c190-4522-810c-a1bab5d1da31",
+            "name": "Свежий салат",
+            "description": "Вкус лета и ничего лишнего.",
+            "ingredients": "помидоры, огурцы, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-6.png",
+            "variants": [
+              {
+                "id": "29cc094a-45dc-4134-86ee-d212077b97aa",
+                "label": "300 г",
+                "price": "357"
+              }
+            ]
+          },
+          {
+            "id": "7e17e642-8ba3-4f5d-a8e5-64392a4a2ea9",
+            "name": "Пик Памира",
+            "description": "Нежный салат с сочной курицей",
+            "ingredients": "пекинская капуста, мясо курицы отварное, мойонез",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-21.png",
+            "variants": [
+              {
+                "id": "6506e37e-7918-4abf-86ca-6796017d7459",
+                "label": "200 г",
+                "price": "357"
+              }
+            ]
+          },
+          {
+            "id": "9ed34933-14bd-4c95-86b2-b61f64395173",
+            "name": "Греческий салат",
+            "description": "Классический средиземноморский салат — сочный, лёгкий и ароматный, с натуральным сыром и маслом.",
+            "ingredients": "огурцы, помидоры, болгарский перец, красный лук, маслины, сыр фета, оливковое масло, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-20.png",
+            "variants": [
+              {
+                "id": "d78dff91-6584-49e2-874c-a091cddd6ed8",
+                "label": "250 г",
+                "price": "344"
+              }
+            ]
+          },
+          {
+            "id": "48aed1f0-da91-44f7-9239-21274188b7e7",
+            "name": "Оливье",
+            "description": "Классика с нежной ветчиной, хрустящими огурчиками и майонезом.",
+            "ingredients": "картофель, морковь, яйца, солёные огурцы, зелёный горошек, колбаса, майонез",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-23.png",
+            "variants": [
+              {
+                "id": "f274f275-a15f-4ed3-92d4-14391af60900",
+                "label": "200 г",
+                "price": "333"
+              }
+            ]
+          },
+          {
+            "id": "8b416a9d-14bb-4b6a-a80f-d1b29ab72f22",
+            "name": "Цезарь",
+            "description": "Хрустящие листья, ароматная курочка, аппетитные сухарики.",
+            "ingredients": "салат, куриное филе-гриль, пармезан, крутоны, соус \"Цезарь\"",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-22.png",
+            "variants": [
+              {
+                "id": "e8f37fc8-edfa-4476-87de-7da8069423a6",
+                "label": "200 г",
+                "price": "357"
+              }
+            ]
+          },
+          {
+            "id": "a8cfeb76-c53f-4be8-8e00-951e6fde595f",
+            "name": "Шакароп с чакка",
+            "description": "Традиционный салат с кисломолочным соусом.",
+            "ingredients": "помидоры, свежие огурцы, чакка, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-22.png",
+            "variants": [
+              {
+                "id": "6953f5d8-7e8e-4df0-8ba6-e528594420e5",
+                "label": "200 г",
+                "price": "375"
+              }
+            ]
+          },
+          {
+            "id": "d4b9d7e9-8b6e-4246-b53c-d8a1fb85666f",
+            "name": "Чака",
+            "description": "Густой кисломолочный продукт с мягким вкусом – идеальный соус к овощам.",
+            "ingredients": "отцеженный йогурт или катык, соль по вкусу",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-21.png",
+            "variants": [
+              {
+                "id": "d67007f9-eda8-420e-b966-841b30e32343",
+                "label": "300 г",
+                "price": "213"
+              },
+              {
+                "id": "12fe3bbe-3eb3-4b30-ad43-52e5d8c30b13",
+                "label": "150 г",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "a0ff0713-ff90-4c5c-a7e5-d6f2d3ebdab7",
+            "name": "Корейский салат",
+            "description": "Острый, сочный, с чесночной ноткой.",
+            "ingredients": "морковь, зелень, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-24.png",
+            "variants": [
+              {
+                "id": "9a4f54c2-caea-4e79-88bd-11fc09b01d32",
+                "label": "250 г",
+                "price": "300"
+              }
+            ]
+          },
+          {
+            "id": "3f6375dc-1c45-4c8d-85e1-f283863d4c28",
+            "name": "Соленья",
+            "description": "Кисленькие, хрустящие, с душистыми травами.",
+            "ingredients": "капуста, свекла, огурцы, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-23.png",
+            "variants": [
+              {
+                "id": "1cf380e6-974b-4d92-96a3-02789952927e",
+                "label": "250 г",
+                "price": "325"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dbcb4c55-50ba-4ead-a275-18dbc343bbac",
+        "name": "Десерты",
+        "dishes": [
+          {
+            "id": "9d78cd68-a980-4255-9412-3694e0d3d516",
+            "name": "Восточные сладости/Пирожные",
+            "description": "Актуальный ассортимент можно узнать у официанта или на кассе.",
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/deserty.webp",
+            "variants": [
+              {
+                "id": "0f7b6796-94a4-4a10-aa1d-66840f57a0c5",
+                "label": "1 шт",
+                "price": "180"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b5b6670e-477f-47be-95e9-da9ddb036b4e",
+        "name": "Напитки",
+        "dishes": [
+          {
+            "id": "4e3f5a20-c9b6-4275-886c-010760f059cc",
+            "name": "Арси-Кола",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/rc-cola.webp",
+            "variants": [
+              {
+                "id": "b7788276-6a14-44e3-aa88-7ca892ac146b",
+                "label": "1,5 л",
+                "price": "325"
+              },
+              {
+                "id": "d1fbc127-173e-4522-b759-caae7bb670ac",
+                "label": "1,0 л",
+                "price": "275"
+              },
+              {
+                "id": "95d3b075-90af-4a16-b685-514da6459d3c",
+                "label": "0,5 л",
+                "price": "163"
+              }
+            ]
+          },
+          {
+            "id": "f6134623-3504-4d70-88c4-cb5b166876d3",
+            "name": "Кока-Кола/Пепси-Кола",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": null,
+            "variants": [
+              {
+                "id": "5a0ed80d-2236-427e-8eba-45a814c8b202",
+                "label": "2 л",
+                "price": "350"
+              },
+              {
+                "id": "40691eff-34de-4b43-aef5-9a4450e1b354",
+                "label": "1,5 л",
+                "price": "270"
+              },
+              {
+                "id": "b1e0c49d-4ab1-44be-95ba-954f00087e03",
+                "label": "1,0 л",
+                "price": "225"
+              },
+              {
+                "id": "c16b52c7-ec1b-4494-bc85-b832160df482",
+                "label": "0,5 л",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "f2204b67-35e5-4421-a568-5fc39050cd60",
+            "name": "Вода",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": null,
+            "variants": [
+              {
+                "id": "7cf8c3d3-d6f1-4668-9ac8-09e0cb538dd4",
+                "label": "0,5 л, газированная",
+                "price": "100"
+              },
+              {
+                "id": "353df416-8d4a-4342-8e51-8adf3dd7175f",
+                "label": "0,5 л, негазированная",
+                "price": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "seed-branch-kudrovo": [
+      {
+        "id": "b64aff9b-2e04-4e66-9f97-e4f56d2ebcf2",
+        "name": "Супы",
+        "dishes": [
+          {
+            "id": "cc643972-75d9-40cb-bb1d-01255f8529c8",
+            "name": "Суп в горшочке",
+            "description": "Ароматная баранина с картофелем и морковью, томлёная со специями в душистом бульоне. Традиционный вкус, который согреет душу.",
+            "ingredients": "баранина, картофель, морковь, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-8.png",
+            "variants": [
+              {
+                "id": "557a43e7-07f8-4480-9057-f99e4084294a",
+                "label": "350 г",
+                "price": "475"
+              }
+            ]
+          },
+          {
+            "id": "a34c2789-2461-4be0-b5d7-f14c2b02d218",
+            "name": "Солянка халяль",
+            "description": "Яркий вкус томатной пасты и специй с лимоном и сметаной.",
+            "ingredients": "говядина, копчёности, солёные огурцы, оливки, лук, морковь, помидоры, картофель, томатная паста, специи, зелень, лимон, сметана",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-8.png",
+            "variants": [
+              {
+                "id": "79ddf7ba-f70b-4a19-88cc-52709f3fa49b",
+                "label": "400 г",
+                "price": "426"
+              }
+            ]
+          },
+          {
+            "id": "502d20bf-9cc8-47f0-9292-b32b9ebdb555",
+            "name": "Шурпа с бараниной",
+            "description": "Насыщенный бульон, приготовленный на медленном огне с добавленнием свежей зелени. Сытное, полезное и по-настоящему восточное блюдо!",
+            "ingredients": "баранина, репчатый лук, морковь, картофель, болгарский перец, помидоры, специи, зелень.",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-9.png",
+            "variants": [
+              {
+                "id": "fec58e10-3679-47ed-91f9-754f5d4143af",
+                "label": "400 г",
+                "price": "482"
+              }
+            ]
+          },
+          {
+            "id": "555c7d64-d4b9-4e52-9fb1-7ddcd3e8ab09",
+            "name": "Шурпа с говядиной",
+            "description": "Наваристый и ароматный бульон с нежными кусочками мяса, свежими овощами и натуральными специями.",
+            "ingredients": "говядина, репчатый лук, морковь, картофель, болгарский перец, помидоры, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-9.png",
+            "variants": [
+              {
+                "id": "72e4296c-72c8-407b-97f3-afd4c82fcfe9",
+                "label": "400 г",
+                "price": "482"
+              }
+            ]
+          },
+          {
+            "id": "0a018072-dd49-4383-a89a-b47839e8a768",
+            "name": "Пельмени с бульоном",
+            "description": "Аппетитные пельмени, подаются с горячим наваристым бульоном – просто и вкусно.",
+            "ingredients": "нежное мясо, тонкое тесто, прозрачный бульон, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0269-Photoroom-4.png",
+            "variants": [
+              {
+                "id": "9a8eb290-d482-457b-99ac-7158fd73adbe",
+                "label": "300 г",
+                "price": "451"
+              }
+            ]
+          },
+          {
+            "id": "c05e54c0-1d18-49d0-86bd-4e43927d3ba7",
+            "name": "Мастава",
+            "description": "Густой ароматный суп, сваренный на медленном огне из свежих овощей и мягкой говядины. Тёплый восточный вкус.",
+            "ingredients": "говядина, рис, картофель, морковь, лук, помидоры, болгарский перец, чеснок, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-19.png",
+            "variants": [
+              {
+                "id": "0761cba2-b3f6-4354-9987-4e4eae8857eb",
+                "label": "300 г",
+                "price": "437"
+              }
+            ]
+          },
+          {
+            "id": "82e17db7-887a-4096-a754-cea7db433681",
+            "name": "Лагман",
+            "description": "Насыщенный мясной суп с упругой домашней лапшой, овощами и пряным букетом восточных специй.",
+            "ingredients": "говядина, лапша ручной тяжки, болгарский перец, морковь, редька, чеснок, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-18.png",
+            "variants": [
+              {
+                "id": "cbfcdc61-0d34-468c-8202-cbe4615ab2d3",
+                "label": "400 г",
+                "price": "482"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3e83ca5c-5804-4f7a-a3cd-cdedcd2790ea",
+        "name": "Горячие блюда",
+        "dishes": [
+          {
+            "id": "2650e5c9-c5ca-4d68-8f73-d36d97c286af",
+            "name": "Жареная баранина",
+            "description": "Нежные кусочки баранины с золотистой корочкой и насыщенным вкусом.",
+            "ingredients": "баранина, лук, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-12.png",
+            "variants": [
+              {
+                "id": "46f4743f-0d7c-4e0c-a358-69ddea89515e",
+                "label": "1 кг",
+                "price": "3000"
+              },
+              {
+                "id": "bccd9867-9777-45e5-b3b5-02f1dbf8e33d",
+                "label": "0,5 кг",
+                "price": "1600"
+              },
+              {
+                "id": "1b1cbd0d-5701-4a53-ba8e-0c3ad600f3cf",
+                "label": "300 г",
+                "price": "900"
+              }
+            ]
+          },
+          {
+            "id": "e7bbc24c-889c-4d8c-b5bd-2d61480aba9c",
+            "name": "Жареная говядина",
+            "description": "Сочная говядина, обжаренная до румяной корочки, с луком и ароматными специями.",
+            "ingredients": "говядина, лук, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-12.png",
+            "variants": [
+              {
+                "id": "ffe64e84-93a2-4eeb-b931-be6b4086c58e",
+                "label": "1 кг",
+                "price": "3000"
+              },
+              {
+                "id": "95e67dd6-f741-4aff-843d-cd658fd45330",
+                "label": "0,5 кг",
+                "price": "1600"
+              },
+              {
+                "id": "4a2e98cf-7fb8-49f1-b72b-86b452ea1875",
+                "label": "300 г",
+                "price": "900"
+              }
+            ]
+          },
+          {
+            "id": "37d72bec-a018-4643-82da-1b93b750775f",
+            "name": "Пельмени со сметаной",
+            "description": "Нежные пельмешки ручной лепки с сочной начинкой, подаются со свежей сметаной.",
+            "ingredients": "тесто, мясной фарш, сметана, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-13.png",
+            "variants": [
+              {
+                "id": "1531d519-58b6-4ffd-b9d0-589edb77af70",
+                "label": "300 г",
+                "price": "507"
+              }
+            ]
+          },
+          {
+            "id": "17987958-415a-4a54-8b9d-8c8def1b6be0",
+            "name": "Манты",
+            "description": "Пышные паровые пирожки с сочной мясной начинкой, подаются со сметанойи зеленью.",
+            "ingredients": "говядина, говяжий жир, репчатый лук, специи, тесто",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-13.png",
+            "variants": [
+              {
+                "id": "6158f233-2266-4d9c-98b6-6b04d078cb28",
+                "label": "400 г",
+                "price": "482"
+              },
+              {
+                "id": "b51f7d33-4dbb-4598-8916-660d8d17eb2a",
+                "label": "50 г (1 шт)",
+                "price": "125"
+              }
+            ]
+          },
+          {
+            "id": "f0ad3b13-201e-4a25-bb08-d3f5682084ef",
+            "name": "Казан-кебаб из баранины",
+            "description": "Мясо обжаривается до золотистой корочки и медленно томится с картофелем и специями в казане. Получается мягкое, ароматное блюдо с насыщенным восточным вкусом",
+            "ingredients": "баранина, картофель, лук, растительное масло, чеснок, зира, кориандр, чёрный перец, соль, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-18.png",
+            "variants": [
+              {
+                "id": "05bb17bb-f227-40a3-8017-4c8761a525e6",
+                "label": "350 г",
+                "price": "625"
+              }
+            ]
+          },
+          {
+            "id": "e05f0b9e-ce18-425d-ba27-568dfa9db52f",
+            "name": "Казан-кебаб из говядины",
+            "description": "Нежная говядина, обжаренная в казане с золотистым луком, ароматными специями и картофелем.",
+            "ingredients": "говядина, картофель, лук, растительное масло, чеснок, зира, кориандр, чёрный перец, соль, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-17.png",
+            "variants": [
+              {
+                "id": "e79bbb35-ceac-4fbb-886d-f61151226a15",
+                "label": "350 г",
+                "price": "625"
+              }
+            ]
+          },
+          {
+            "id": "9c611de3-df0f-4488-94ba-1fe4de0b70d2",
+            "name": "Плов",
+            "description": "Настоящая классика восточной кухни, приготовленная по традиционному рецепту.",
+            "ingredients": "говядина, рис, морковь, репчатый лук, чеснок, нут, ароматные специи, растительное масло",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-14.png",
+            "variants": [
+              {
+                "id": "c584c5e2-1c7d-406b-8496-90cb74e47f54",
+                "label": "1 порция, 400 г",
+                "price": "482"
+              },
+              {
+                "id": "dbe4bfdb-66b5-4801-8a9b-5f404fa875b2",
+                "label": "1 кг",
+                "price": "4125"
+              }
+            ]
+          },
+          {
+            "id": "155d9542-f4f1-44a1-9169-5ebf489ec442",
+            "name": "Жаркое (говядина)",
+            "description": "Говядина, томлёная с овощами и специями по старинному рецепту.",
+            "ingredients": "говядина, картофель, морковь, лук, чеснок, томатная паста, лавровый лист, чёрный перец, соль, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_8472-1-1.png",
+            "variants": [
+              {
+                "id": "e9f716d4-b915-41aa-a425-7b4f80d0ccc2",
+                "label": "600 г",
+                "price": "450"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4183b9be-9c59-4730-ac18-3119964da238",
+        "name": "Шашлык",
+        "dishes": [
+          {
+            "id": "bc0cb18b-2b2e-4b84-a1f5-5dbf617e9c87",
+            "name": "Люля-кебаб",
+            "description": "Ароматный фарш из баранины на мангале, с пряностями и хрустящей корочкой.",
+            "ingredients": "баранина, лук, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-14.png",
+            "variants": [
+              {
+                "id": "fe59a4e7-170a-49b0-b928-afd534128884",
+                "label": "170 г",
+                "price": "562"
+              },
+              {
+                "id": "2ed07174-fbad-47de-be53-c8fed10c5f01",
+                "label": "120 г",
+                "price": "300"
+              }
+            ]
+          },
+          {
+            "id": "49078e1a-879f-4ee9-a0a1-5f7891dee43e",
+            "name": "Шашлык из баранины",
+            "description": "Мягкая, сочная баранина на углях, пропитанная дымком и специями.",
+            "ingredients": "баранина, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-16.png",
+            "variants": [
+              {
+                "id": "3dedcdc2-184a-4fcb-ad4c-228b9bc35814",
+                "label": "170 г",
+                "price": "612"
+              }
+            ]
+          },
+          {
+            "id": "394f54db-2d89-4f6f-97d8-107ed869f0ef",
+            "name": "Шашлык из говядины",
+            "description": "Сочная говядина, обжаренная до румяной корочки, с луком и ароматными специями.",
+            "ingredients": "говядина, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-16.png",
+            "variants": [
+              {
+                "id": "60dd3849-0be3-4c5e-8236-791740427c39",
+                "label": "170 г",
+                "price": "612"
+              }
+            ]
+          },
+          {
+            "id": "e505ba1f-3e4d-42ca-b312-72a36f2e4519",
+            "name": "Шашлык из курицы",
+            "description": "Сочный шашлык из курицы, маринованный в специях и приготовленный на мангале до золотистой корочки. Мясо мягкое и ароматное, с лёгким дымным вкусом, идеально для горячей подачи",
+            "ingredients": "курица, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-17.png",
+            "variants": [
+              {
+                "id": "cf4c3124-7075-430d-a687-71f685a58424",
+                "label": "180 г",
+                "price": "537"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3f8db33c-b03e-4050-9518-3c1d6e303294",
+        "name": "Шаверма",
+        "dishes": [
+          {
+            "id": "2c1662b5-24bb-4005-b836-ed71728a2147",
+            "name": "Шаверма на тарелке",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-tarelka.webp",
+            "variants": [
+              {
+                "id": "f8cd22dd-11f3-4b47-8dd5-ff4f91fb0941",
+                "label": "430 г",
+                "price": "587"
+              }
+            ]
+          },
+          {
+            "id": "027e8963-1f9c-400c-8352-e4f55466e836",
+            "name": "Шаверма Супер-чиз",
+            "description": "Шаверма на сырном лаваше",
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-super-chiz.webp",
+            "variants": [
+              {
+                "id": "938a0ba2-46da-4ba5-a7e1-f2e7332b5c5f",
+                "label": "380 г",
+                "price": "437"
+              }
+            ]
+          },
+          {
+            "id": "dfbc2f6d-64db-475a-b278-f329a3089b3e",
+            "name": "Шаверма двойная",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-lavash.webp",
+            "variants": [
+              {
+                "id": "5206207e-318b-4393-a516-1ad44f799ebf",
+                "label": "420 г",
+                "price": "499"
+              }
+            ]
+          },
+          {
+            "id": "e9c8b5d5-7c92-48da-b919-bd0bcd323627",
+            "name": "Шаверма с говядиной",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-govyadina.webp",
+            "variants": [
+              {
+                "id": "ef06d4dc-05c6-4e78-b2d0-3bdfc42f66ff",
+                "label": "360 г",
+                "price": "488"
+              }
+            ]
+          },
+          {
+            "id": "b43c4a7d-18b8-4ce4-9fa5-61410ca57cde",
+            "name": "Шаверма с говядиной на тарелке",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-tarelka.webp",
+            "variants": [
+              {
+                "id": "e8f6c624-e98c-4669-ba72-526e2582596c",
+                "label": "400 г",
+                "price": "613"
+              }
+            ]
+          },
+          {
+            "id": "45035596-9659-4b2e-a111-aef3f6029e95",
+            "name": "Шаверма в лаваше",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-lavash.webp",
+            "variants": [
+              {
+                "id": "697e5f01-7f49-426c-b0f5-6ee1c256d1ad",
+                "label": "360 г",
+                "price": "400"
+              }
+            ]
+          },
+          {
+            "id": "cb5c4724-76eb-475d-ab0e-f9afbc3a2bfe",
+            "name": "Шаверма мексиканская в лаваше",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-meksikanskaya.webp",
+            "variants": [
+              {
+                "id": "643504ce-e82c-4337-9e53-b1b2bce7f6f4",
+                "label": "380 г",
+                "price": "425"
+              }
+            ]
+          },
+          {
+            "id": "04aabc9d-4457-4c93-ba57-f13703e65d06",
+            "name": "Лакшери картофель с хот-догом",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/hot-dog-tarelka.webp",
+            "variants": [
+              {
+                "id": "b7675633-fc32-42b1-a3a3-8c33b2e97d0b",
+                "label": "380 г",
+                "price": "413"
+              }
+            ]
+          },
+          {
+            "id": "b5de6e82-dd25-4dc9-ad78-25f4a00dad88",
+            "name": "Шаверма Барбекю",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-lavash.webp",
+            "variants": [
+              {
+                "id": "fc4aee65-eed1-4cdf-bca4-b7c698b7bb12",
+                "label": "380 г",
+                "price": "425"
+              }
+            ]
+          },
+          {
+            "id": "15b8536e-01c1-44d1-8ee4-74ac594378e2",
+            "name": "Шаверма арабская",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-lavash.webp",
+            "variants": [
+              {
+                "id": "cb9e9d25-9764-403f-88f9-5cb295c75a70",
+                "label": "380 г",
+                "price": "425"
+              }
+            ]
+          },
+          {
+            "id": "4e35ef2a-c96d-4040-b917-909a2585ae66",
+            "name": "Хот-дог в лаваше",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/hot-dog-lavash.webp",
+            "variants": [
+              {
+                "id": "343a062e-7e2f-421f-9e81-69fec250c4dd",
+                "label": "380 г",
+                "price": "400"
+              }
+            ]
+          },
+          {
+            "id": "733baf12-ca49-43d1-b3f9-efce6daf69c1",
+            "name": "Хот-дог Барбекю",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/hot-dog-lavash.webp",
+            "variants": [
+              {
+                "id": "2e2ea4c8-fe64-49b3-b055-07a3b5d8eec6",
+                "label": "380 г",
+                "price": "400"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "39cc1a59-7d35-4fbd-86b6-d03f6720a544",
+        "name": "Котлеты",
+        "dishes": [
+          {
+            "id": "3a2f2c6f-8b52-4bd5-b05b-f9a2410c9ef0",
+            "name": "Куриная грудка под сыром",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/grudka-pod-syrom.webp",
+            "variants": [
+              {
+                "id": "a5fcf813-0f36-422f-86a3-159b92e08a09",
+                "label": "150 г",
+                "price": "250"
+              }
+            ]
+          },
+          {
+            "id": "14163704-e114-478c-8bb7-dcde04cd399c",
+            "name": "Куриное бедро с грибами и сыром",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/bedro-griby-syr.webp",
+            "variants": [
+              {
+                "id": "69e6b6c3-9c3c-4bba-a724-0c5dc905c368",
+                "label": "150 г",
+                "price": "250"
+              }
+            ]
+          },
+          {
+            "id": "4c606af4-0bab-4533-811f-27a668177b18",
+            "name": "Куриная грудка на гриле",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/grudka-gril.webp",
+            "variants": [
+              {
+                "id": "4845f310-8ea2-46c0-866d-6e803dc0f032",
+                "label": "150 г",
+                "price": "250"
+              }
+            ]
+          },
+          {
+            "id": "dacfa34c-18bd-4305-97dc-470326593df0",
+            "name": "Куриная котлета классическая",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/kotleta-klassicheskaya.webp",
+            "variants": [
+              {
+                "id": "a6516fc2-24bb-41e0-af7e-d91e3cec2b5c",
+                "label": "150 г",
+                "price": "250"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "d5cd094f-220a-4220-aba5-4d2cba0ee5e2",
+        "name": "Гарниры",
+        "dishes": [
+          {
+            "id": "fd1bce16-b63b-4f98-8aca-55c2d8a439fe",
+            "name": "Запечённый картофель",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/kartofel-zapechenny.webp",
+            "variants": [
+              {
+                "id": "5487dc94-4f41-4cf3-b284-61e5e0db8b93",
+                "label": "100 г",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "cb1d82c2-14f9-4a69-bae4-901c6a68c668",
+            "name": "Гречка",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/grechka.webp",
+            "variants": [
+              {
+                "id": "e6fedc9f-7a6b-4b14-907a-347e8c966ebd",
+                "label": "100 г",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "6504efb6-4f53-40ab-8914-a10564f4cba8",
+            "name": "Макароны",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/makarony.webp",
+            "variants": [
+              {
+                "id": "86c4b1cb-ccd7-445f-be9e-79d92ca50766",
+                "label": "100 г",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "d519c512-b0eb-4ee5-bc31-522725252356",
+            "name": "Рис",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/ris.webp",
+            "variants": [
+              {
+                "id": "7e5b3a17-22f9-4497-92fa-58b3eb97dbbc",
+                "label": "100 г",
+                "price": "150"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1f704c77-7cd4-4d73-a5fe-38850b4e309a",
+        "name": "Выпечка",
+        "dishes": [
+          {
+            "id": "49b31f01-c802-4544-988a-dbfbc0b6087c",
+            "name": "Лаваш из тандыра",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/lavash-tandyr.webp",
+            "variants": [
+              {
+                "id": "cee8fb55-dfd0-4d46-b629-59df0c2527c7",
+                "label": "260 г",
+                "price": "85"
+              }
+            ]
+          },
+          {
+            "id": "342c9718-3833-49fa-9f4a-ace21be4fb88",
+            "name": "Самса",
+            "description": "Сочное говяжье мясо заворачивается в хрустящее слоёное тесто и выпекается до золотистой корочки.",
+            "ingredients": "мясо, говяжий жир, репчатый лук, ароматные специи, слоёное тесто",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-11.png",
+            "variants": [
+              {
+                "id": "2cd4eee0-cc43-41ad-ab5c-2feca2b28dd4",
+                "label": "200 г",
+                "price": "188"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ed7521e0-0777-4a53-848d-c161c2757207",
+        "name": "Салаты",
+        "dishes": [
+          {
+            "id": "a8cfeb76-c53f-4be8-8e00-951e6fde595f",
+            "name": "Шакароп с чакка",
+            "description": "Традиционный салат с кисломолочным соусом.",
+            "ingredients": "помидоры, свежие огурцы, чакка, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-22.png",
+            "variants": [
+              {
+                "id": "6953f5d8-7e8e-4df0-8ba6-e528594420e5",
+                "label": "200 г",
+                "price": "300"
+              }
+            ]
+          },
+          {
+            "id": "a0ff0713-ff90-4c5c-a7e5-d6f2d3ebdab7",
+            "name": "Салат морковный",
+            "description": "Острый, сочный, с чесночной ноткой.",
+            "ingredients": "морковь, зелень, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-24.png",
+            "variants": [
+              {
+                "id": "9a4f54c2-caea-4e79-88bd-11fc09b01d32",
+                "label": "250 г",
+                "price": "260"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "9f656742-4465-4734-86c9-6231681f0cef",
+        "name": "Соусы",
+        "dishes": [
+          {
+            "id": "e9b70daf-1584-4f48-9027-750714bdbb11",
+            "name": "Халапеньо",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/halapeno.webp",
+            "variants": [
+              {
+                "id": "ab1c3c68-92bb-4c0d-940e-9c9668aa979d",
+                "label": "10 г",
+                "price": "50"
+              }
+            ]
+          },
+          {
+            "id": "d4b9d7e9-8b6e-4246-b53c-d8a1fb85666f",
+            "name": "Чака",
+            "description": "Густой кисломолочный продукт с мягким вкусом – идеальный соус к овощам.",
+            "ingredients": "отцеженный йогурт или катык, соль по вкусу",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-21.png",
+            "variants": [
+              {
+                "id": "d67007f9-eda8-420e-b966-841b30e32343",
+                "label": "100 г",
+                "price": "160"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b5b6670e-477f-47be-95e9-da9ddb036b4e",
+        "name": "Напитки",
+        "dishes": [
+          {
+            "id": "85539fcf-c670-4c49-8496-e542cd3ceef1",
+            "name": "Компот из сухофруктов",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/kompot.webp",
+            "variants": [
+              {
+                "id": "a8040787-a0ba-4d2d-995c-aba732da6673",
+                "label": "500 мл",
+                "price": "200"
+              }
+            ]
+          },
+          {
+            "id": "875c60c8-a682-464c-bf4c-9fd7ba8e15b6",
+            "name": "Натахтари Саперави",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/natakhtari.webp",
+            "variants": [
+              {
+                "id": "2f143d8b-62eb-4805-b7b1-13771f5d61ee",
+                "label": "500 мл",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "f87f7c64-8c20-4d5e-914f-34d25c688af8",
+            "name": "RC Cola",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/rc-cola.webp",
+            "variants": [
+              {
+                "id": "3b59fc8e-e93b-4279-a86f-f2f8d9a1bb8a",
+                "label": "1 л",
+                "price": "280"
+              }
+            ]
+          },
+          {
+            "id": "63be8fcf-9a89-490e-bb7e-17216f158da6",
+            "name": "RC Cola Яблоко",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/rc-cola-yabloko.webp",
+            "variants": [
+              {
+                "id": "b00d1bd0-69a8-4b87-9a03-4d4837fc8119",
+                "label": "1,5 л",
+                "price": "320"
+              }
+            ]
+          },
+          {
+            "id": "2f230a05-361a-4a2f-8fa2-f144692fbba3",
+            "name": "Сок Добрый Мультифрукт",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/sok-dobry.webp",
+            "variants": [
+              {
+                "id": "3340e29c-e3b9-44a9-baa8-170e621e7ec0",
+                "label": "1 л",
+                "price": "300"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "seed-branch-north": [
+      {
+        "id": "b64aff9b-2e04-4e66-9f97-e4f56d2ebcf2",
+        "name": "Супы",
+        "dishes": [
+          {
+            "id": "a34c2789-2461-4be0-b5d7-f14c2b02d218",
+            "name": "Солянка халяль",
+            "description": "Яркий вкус томатной пасты и специй с лимоном и сметаной.",
+            "ingredients": "говядина, копчёности, солёные огурцы, оливки, лук, морковь, помидоры, картофель, томатная паста, специи, зелень, лимон, сметана",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-8.png",
+            "variants": [
+              {
+                "id": "79ddf7ba-f70b-4a19-88cc-52709f3fa49b",
+                "label": "400 г",
+                "price": "450"
+              }
+            ]
+          },
+          {
+            "id": "502d20bf-9cc8-47f0-9292-b32b9ebdb555",
+            "name": "Шурпа с бараниной",
+            "description": "Насыщенный бульон, приготовленный на медленном огне с добавленнием свежей зелени. Сытное, полезное и по-настоящему восточное блюдо!",
+            "ingredients": "баранина, репчатый лук, морковь, картофель, болгарский перец, помидоры, специи, зелень.",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-9.png",
+            "variants": [
+              {
+                "id": "fec58e10-3679-47ed-91f9-754f5d4143af",
+                "label": "400 г",
+                "price": "475"
+              }
+            ]
+          },
+          {
+            "id": "555c7d64-d4b9-4e52-9fb1-7ddcd3e8ab09",
+            "name": "Шурпа с говядиной",
+            "description": "Наваристый и ароматный бульон с нежными кусочками мяса, свежими овощами и натуральными специями.",
+            "ingredients": "говядина, репчатый лук, морковь, картофель, болгарский перец, помидоры, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-9.png",
+            "variants": [
+              {
+                "id": "72e4296c-72c8-407b-97f3-afd4c82fcfe9",
+                "label": "400 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "0a018072-dd49-4383-a89a-b47839e8a768",
+            "name": "Пельмени с бульоном",
+            "description": "Аппетитные пельмени, подаются с горячим наваристым бульоном – просто и вкусно.",
+            "ingredients": "нежное мясо, тонкое тесто, прозрачный бульон, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0269-Photoroom-4.png",
+            "variants": [
+              {
+                "id": "9a8eb290-d482-457b-99ac-7158fd73adbe",
+                "label": "300 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "c05e54c0-1d18-49d0-86bd-4e43927d3ba7",
+            "name": "Мастава",
+            "description": "Густой ароматный суп, сваренный на медленном огне из свежих овощей и мягкой говядины. Тёплый восточный вкус.",
+            "ingredients": "говядина, рис, картофель, морковь, лук, помидоры, болгарский перец, чеснок, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-19.png",
+            "variants": [
+              {
+                "id": "0761cba2-b3f6-4354-9987-4e4eae8857eb",
+                "label": "300 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "82e17db7-887a-4096-a754-cea7db433681",
+            "name": "Лагман",
+            "description": "Насыщенный мясной суп с упругой домашней лапшой, овощами и пряным букетом восточных специй.",
+            "ingredients": "говядина, лапша ручной тяжки, болгарский перец, морковь, редька, чеснок, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-18.png",
+            "variants": [
+              {
+                "id": "cbfcdc61-0d34-468c-8202-cbe4615ab2d3",
+                "label": "400 г",
+                "price": "463"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3e83ca5c-5804-4f7a-a3cd-cdedcd2790ea",
+        "name": "Горячие блюда",
+        "dishes": [
+          {
+            "id": "e6ed66d0-1c84-4208-b86b-49b399d03a67",
+            "name": "Чупонча",
+            "description": "Ароматное узбекское жаркое с нежной бараниной и золотистым картофелем, томлёное в казане с овощами и пряностями.",
+            "ingredients": "баранина, картофель, лук, морковь, томаты, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-10.png",
+            "variants": [
+              {
+                "id": "4e050e79-1207-4285-91c0-e7ce35b741cc",
+                "label": "1 кг",
+                "price": "2500"
+              }
+            ]
+          },
+          {
+            "id": "a7bd5ba6-8b87-4975-97b4-b3a00f1c57a3",
+            "name": "Лагман жареный",
+            "description": "Сытное и ароматное блюдо. Нежные кусочки говядины с овощами, специями и лапшой. Жареное яйцо, придаёт блюду особую сочность и насыщенность.",
+            "ingredients": "говядина, лапша, болгарский перец, лук, морковь, чеснок, помидоры, яйцо, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-10.png",
+            "variants": [
+              {
+                "id": "506185f1-b783-494b-8a50-911b476c40f5",
+                "label": "400 г",
+                "price": "500"
+              }
+            ]
+          },
+          {
+            "id": "2650e5c9-c5ca-4d68-8f73-d36d97c286af",
+            "name": "Баранина жареная",
+            "description": "Нежные кусочки баранины с золотистой корочкой и насыщенным вкусом.",
+            "ingredients": "баранина, лук, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-12.png",
+            "variants": [
+              {
+                "id": "46f4743f-0d7c-4e0c-a358-69ddea89515e",
+                "label": "1 кг",
+                "price": "2875"
+              },
+              {
+                "id": "bccd9867-9777-45e5-b3b5-02f1dbf8e33d",
+                "label": "0,5 кг",
+                "price": "1600"
+              },
+              {
+                "id": "1b1cbd0d-5701-4a53-ba8e-0c3ad600f3cf",
+                "label": "0,3 кг",
+                "price": "900"
+              }
+            ]
+          },
+          {
+            "id": "e7bbc24c-889c-4d8c-b5bd-2d61480aba9c",
+            "name": "Говядина жареная",
+            "description": "Сочная говядина, обжаренная до румяной корочки, с луком и ароматными специями.",
+            "ingredients": "говядина, лук, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-12.png",
+            "variants": [
+              {
+                "id": "ffe64e84-93a2-4eeb-b931-be6b4086c58e",
+                "label": "1 кг",
+                "price": "2875"
+              },
+              {
+                "id": "95e67dd6-f741-4aff-843d-cd658fd45330",
+                "label": "0,5 кг",
+                "price": "1600"
+              },
+              {
+                "id": "4a2e98cf-7fb8-49f1-b72b-86b452ea1875",
+                "label": "0,3 кг",
+                "price": "900"
+              }
+            ]
+          },
+          {
+            "id": "7cc23e26-de2e-4604-af35-4c48cf73ede2",
+            "name": "Гуляш",
+            "description": "На выбор три гарнира: картофельное пюре, гречка и макароны. Домашний вкус и сытость на весь день.",
+            "ingredients": "гречневая крупа/макароны/картофель на выбор, говядина, томатная подливка, специи, зелень,, молоко, сливочное масло, соль",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0269-Photoroom-5.png",
+            "variants": [
+              {
+                "id": "57a07593-4948-4a0e-a7c4-318f4186cd3e",
+                "label": "450 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "37d72bec-a018-4643-82da-1b93b750775f",
+            "name": "Пельмени со сметаной",
+            "description": "Нежные пельмешки ручной лепки с сочной начинкой, подаются со свежей сметаной.",
+            "ingredients": "тесто, мясной фарш, сметана, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-13.png",
+            "variants": [
+              {
+                "id": "1531d519-58b6-4ffd-b9d0-589edb77af70",
+                "label": "300 г",
+                "price": "500"
+              }
+            ]
+          },
+          {
+            "id": "17987958-415a-4a54-8b9d-8c8def1b6be0",
+            "name": "Манты",
+            "description": "Пышные паровые пирожки с сочной мясной начинкой, подаются со сметанойи зеленью.",
+            "ingredients": "говядина, говяжий жир, репчатый лук, специи, тесто",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-13.png",
+            "variants": [
+              {
+                "id": "6158f233-2266-4d9c-98b6-6b04d078cb28",
+                "label": "350 г (5 шт)",
+                "price": "463"
+              },
+              {
+                "id": "b51f7d33-4dbb-4598-8916-660d8d17eb2a",
+                "label": "50 г (1 шт)",
+                "price": "100"
+              }
+            ]
+          },
+          {
+            "id": "ea51fc2b-6e81-48bc-a186-91e078136ab7",
+            "name": "Курутоб с мясом/без мяса",
+            "description": "Традиционное таджикское блюдо на основе лепёшек фатир, залитых кисломолочной заливкой (катик), с жаренным луком, зеленью, свежими овощами. Подаётся тёплым.",
+            "ingredients": "фатир, катик (или мацони), обжаренный лук, помидоры, огурцы, кинза, укроп, соль",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-15.png",
+            "variants": [
+              {
+                "id": "c02773bc-2a1e-4e03-8358-f2c58f8c3774",
+                "label": "600 г",
+                "price": "650"
+              },
+              {
+                "id": "4bfd1a46-cac6-4c3f-bd52-5db14817ad9b",
+                "label": "вариант 2",
+                "price": "550"
+              }
+            ]
+          },
+          {
+            "id": "5f2b3fb6-81f1-45a6-a9f2-72b9560384cf",
+            "name": "Яйцо жареное",
+            "description": "Идеально на завтрак.",
+            "ingredients": "яйцо, масло растительное, соль",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-15.png",
+            "variants": [
+              {
+                "id": "78bae369-7925-4295-b6a0-fa772a255808",
+                "label": "1 шт",
+                "price": "100"
+              }
+            ]
+          },
+          {
+            "id": "f0ad3b13-201e-4a25-bb08-d3f5682084ef",
+            "name": "Казан-Кебаб (баранина)",
+            "description": "Сочное мясо, приготовленное в казане, обжаренное до румяной корочки с луком, специями и картофелем.",
+            "ingredients": "баранина, картофель, лук, растительное масло, чеснок, зира, кориандр, чёрный перец, соль, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-18.png",
+            "variants": [
+              {
+                "id": "05bb17bb-f227-40a3-8017-4c8761a525e6",
+                "label": "400 г",
+                "price": "688"
+              }
+            ]
+          },
+          {
+            "id": "e05f0b9e-ce18-425d-ba27-568dfa9db52f",
+            "name": "Казан-Кебаб (говядина)",
+            "description": "Нежная говядина, обжаренная в казане с золотистым луком, ароматными специями и картофелем.",
+            "ingredients": "говядина, картофель, лук, растительное масло, чеснок, зира, кориандр, чёрный перец, соль, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-17.png",
+            "variants": [
+              {
+                "id": "e79bbb35-ceac-4fbb-886d-f61151226a15",
+                "label": "400 г",
+                "price": "688"
+              }
+            ]
+          },
+          {
+            "id": "9c611de3-df0f-4488-94ba-1fe4de0b70d2",
+            "name": "Плов",
+            "description": "Настоящая классика восточной кухни, приготовленная по традиционному рецепту.",
+            "ingredients": "говядина, рис, морковь, репчатый лук, чеснок, нут, ароматные специи, растительное масло",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-14.png",
+            "variants": [
+              {
+                "id": "c584c5e2-1c7d-406b-8496-90cb74e47f54",
+                "label": "1 порция, 400 г",
+                "price": "463"
+              },
+              {
+                "id": "dbe4bfdb-66b5-4801-8a9b-5f404fa875b2",
+                "label": "1 кг",
+                "price": "4125"
+              }
+            ]
+          },
+          {
+            "id": "394f54db-2d89-4f6f-97d8-107ed869f0ef",
+            "name": "Шашлык (говядина)",
+            "description": "Сочная говядина, обжаренная до румяной корочки, с луком и ароматными специями.",
+            "ingredients": "говядина, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-16.png",
+            "variants": [
+              {
+                "id": "60dd3849-0be3-4c5e-8236-791740427c39",
+                "label": "170 г",
+                "price": "588"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3f8db33c-b03e-4050-9518-3c1d6e303294",
+        "name": "Шаверма",
+        "dishes": [
+          {
+            "id": "279ef6a8-1b5c-491a-8551-53d43376ab79",
+            "name": "Шаверма с курицей в лаваше",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-lavash.webp",
+            "variants": [
+              {
+                "id": "d399e111-b14b-4b8f-a2e3-470678375b84",
+                "label": "360 г",
+                "price": "400"
+              }
+            ]
+          },
+          {
+            "id": "bd089093-982d-4fa2-a70d-5301909f5984",
+            "name": "Шаверма с курицей на тарелке",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-tarelka.webp",
+            "variants": [
+              {
+                "id": "6bc53aea-4842-47c7-84df-4f453fdb6193",
+                "label": "430 г",
+                "price": "587"
+              }
+            ]
+          },
+          {
+            "id": "65d089b4-829d-45b7-9e04-5ffa7d3e9674",
+            "name": "Шаверма с курицей в пите",
+            "description": "Как классическая шаверма с курицей, только в пите вместо лаваша",
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-pita.webp",
+            "variants": [
+              {
+                "id": "f8bd5472-ae9f-4367-b339-015b8dececf8",
+                "label": "1 шт",
+                "price": "239"
+              }
+            ]
+          },
+          {
+            "id": "128aac86-6aab-4b72-aaab-3a67c212b4a8",
+            "name": "Шаверма мексиканская в лаваше",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-meksikanskaya.webp",
+            "variants": [
+              {
+                "id": "83014d71-ecb2-46a0-9eeb-fb42d5139032",
+                "label": "380 г",
+                "price": "425"
+              }
+            ]
+          },
+          {
+            "id": "ff521a3f-0d90-455e-872b-2f1277e2f013",
+            "name": "Шаверма арабская",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-lavash.webp",
+            "variants": [
+              {
+                "id": "0d65897e-3f29-41fc-a490-c69249a22ef9",
+                "label": "380 г",
+                "price": "425"
+              }
+            ]
+          },
+          {
+            "id": "6ecec897-eec9-4a59-8e81-c7720c6f771e",
+            "name": "Шаверма Супер-чиз",
+            "description": "Шаверма на сырном лаваше",
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-super-chiz.webp",
+            "variants": [
+              {
+                "id": "26e318b1-a3ad-4bf6-b7be-b7c2fc179932",
+                "label": "380 г",
+                "price": "437"
+              }
+            ]
+          },
+          {
+            "id": "3975672a-3d4c-40e6-ab70-a9ba0575005a",
+            "name": "Шаверма двойная",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/shaverma-lavash.webp",
+            "variants": [
+              {
+                "id": "d1bad4f1-b603-47c8-acda-8d2004b2b237",
+                "label": "420 г",
+                "price": "500"
+              }
+            ]
+          },
+          {
+            "id": "45311173-1df7-47fc-8511-f46e6cf91280",
+            "name": "Хот-дог в лаваше",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/hot-dog-lavash.webp",
+            "variants": [
+              {
+                "id": "2a07cede-c24b-43c8-ba48-24f869a45cec",
+                "label": "380 г",
+                "price": "400"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1f704c77-7cd4-4d73-a5fe-38850b4e309a",
+        "name": "Выпечка",
+        "dishes": [
+          {
+            "id": "090db844-c2ed-4de5-af5f-faa8430f96cb",
+            "name": "Лепёшка из тандыра",
+            "description": "Пышная лепёшка с хрустящей корочкой и нежной мякотью, приготовленная в традиционной глиняной печи. Идеально сочетается с мясными блюдами и супами.",
+            "ingredients": "мука, вода, дрожжи/закваска, соль, кунжут",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-11.png",
+            "variants": [
+              {
+                "id": "b1c97ba8-c150-4cc6-8124-7d290e765e57",
+                "label": "1 шт",
+                "price": "84"
+              },
+              {
+                "id": "0c12136e-aa66-413e-91de-58a61752821a",
+                "label": "половинка",
+                "price": "43"
+              }
+            ]
+          },
+          {
+            "id": "342c9718-3833-49fa-9f4a-ace21be4fb88",
+            "name": "Самса из тандыра",
+            "description": "Сочное говяжье мясо заворачивается в хрустящее слоёное тесто и выпекается до золотистой корочки.",
+            "ingredients": "мясо, говяжий жир, репчатый лук, ароматные специи, слоёное тесто",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-11.png",
+            "variants": [
+              {
+                "id": "2cd4eee0-cc43-41ad-ab5c-2feca2b28dd4",
+                "label": "1 шт",
+                "price": "188"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ed7521e0-0777-4a53-848d-c161c2757207",
+        "name": "Салаты",
+        "dishes": [
+          {
+            "id": "0dc8d7ff-cf89-410c-ab89-35cff0de9c30",
+            "name": "Весенний салат",
+            "description": "Свежий, лёгкий, с молодой зеленью.",
+            "ingredients": "помидоры, огурцы, лук, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-6.png",
+            "variants": [
+              {
+                "id": "015be39b-a4e3-4934-a355-ffc4cd4c611d",
+                "label": "300 г",
+                "price": "382"
+              }
+            ]
+          },
+          {
+            "id": "39b4a9e2-c190-4522-810c-a1bab5d1da31",
+            "name": "Свежий салат",
+            "description": "Вкус лета и ничего лишнего.",
+            "ingredients": "помидоры, огурцы, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-6.png",
+            "variants": [
+              {
+                "id": "29cc094a-45dc-4134-86ee-d212077b97aa",
+                "label": "300 г",
+                "price": "357"
+              }
+            ]
+          },
+          {
+            "id": "9ed34933-14bd-4c95-86b2-b61f64395173",
+            "name": "Греческий салат",
+            "description": "Классический средиземноморский салат — сочный, лёгкий и ароматный, с натуральным сыром и маслом.",
+            "ingredients": "огурцы, помидоры, болгарский перец, красный лук, маслины, сыр фета, оливковое масло, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-20.png",
+            "variants": [
+              {
+                "id": "d78dff91-6584-49e2-874c-a091cddd6ed8",
+                "label": "250 г",
+                "price": "344"
+              }
+            ]
+          },
+          {
+            "id": "48aed1f0-da91-44f7-9239-21274188b7e7",
+            "name": "Оливье",
+            "description": "Классика с нежной ветчиной, хрустящими огурчиками и майонезом.",
+            "ingredients": "картофель, морковь, яйца, солёные огурцы, зелёный горошек, колбаса, майонез",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-23.png",
+            "variants": [
+              {
+                "id": "f274f275-a15f-4ed3-92d4-14391af60900",
+                "label": "200 г",
+                "price": "333"
+              }
+            ]
+          },
+          {
+            "id": "8b416a9d-14bb-4b6a-a80f-d1b29ab72f22",
+            "name": "Цезарь",
+            "description": "Хрустящие листья, ароматная курочка, аппетитные сухарики.",
+            "ingredients": "салат, куриное филе-гриль, пармезан, крутоны, соус \"Цезарь\"",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-22.png",
+            "variants": [
+              {
+                "id": "e8f37fc8-edfa-4476-87de-7da8069423a6",
+                "label": "200 г",
+                "price": "357"
+              }
+            ]
+          },
+          {
+            "id": "a8cfeb76-c53f-4be8-8e00-951e6fde595f",
+            "name": "Шакароп с чакка",
+            "description": "Традиционный салат с кисломолочным соусом.",
+            "ingredients": "помидоры, свежие огурцы, чакка, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-22.png",
+            "variants": [
+              {
+                "id": "6953f5d8-7e8e-4df0-8ba6-e528594420e5",
+                "label": "200 г",
+                "price": "375"
+              }
+            ]
+          },
+          {
+            "id": "d4b9d7e9-8b6e-4246-b53c-d8a1fb85666f",
+            "name": "Чака",
+            "description": "Густой кисломолочный продукт с мягким вкусом – идеальный соус к овощам.",
+            "ingredients": "отцеженный йогурт или катык, соль по вкусу",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-21.png",
+            "variants": [
+              {
+                "id": "d67007f9-eda8-420e-b966-841b30e32343",
+                "label": "300 г",
+                "price": "213"
+              },
+              {
+                "id": "12fe3bbe-3eb3-4b30-ad43-52e5d8c30b13",
+                "label": "150 г",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "a0ff0713-ff90-4c5c-a7e5-d6f2d3ebdab7",
+            "name": "Корейский салат",
+            "description": "Острый, сочный, с чесночной ноткой.",
+            "ingredients": "морковь, зелень, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-24.png",
+            "variants": [
+              {
+                "id": "9a4f54c2-caea-4e79-88bd-11fc09b01d32",
+                "label": "250 г",
+                "price": "300"
+              }
+            ]
+          },
+          {
+            "id": "3f6375dc-1c45-4c8d-85e1-f283863d4c28",
+            "name": "Соленья",
+            "description": "Кисленькие, хрустящие, с душистыми травами.",
+            "ingredients": "капуста, свекла, огурцы, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-23.png",
+            "variants": [
+              {
+                "id": "1cf380e6-974b-4d92-96a3-02789952927e",
+                "label": "150 г",
+                "price": "325"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dbcb4c55-50ba-4ead-a275-18dbc343bbac",
+        "name": "Десерты",
+        "dishes": [
+          {
+            "id": "9d78cd68-a980-4255-9412-3694e0d3d516",
+            "name": "Восточные сладости/Пирожные",
+            "description": "Актуальный ассортимент можно узнать у официанта или на кассе.",
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/deserty.webp",
+            "variants": [
+              {
+                "id": "0f7b6796-94a4-4a10-aa1d-66840f57a0c5",
+                "label": "1 шт",
+                "price": "180"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b5b6670e-477f-47be-95e9-da9ddb036b4e",
+        "name": "Напитки",
+        "dishes": [
+          {
+            "id": "4e3f5a20-c9b6-4275-886c-010760f059cc",
+            "name": "Арси-Кола",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/rc-cola.webp",
+            "variants": [
+              {
+                "id": "b7788276-6a14-44e3-aa88-7ca892ac146b",
+                "label": "1,5 л",
+                "price": "325"
+              },
+              {
+                "id": "d1fbc127-173e-4522-b759-caae7bb670ac",
+                "label": "1,0 л",
+                "price": "275"
+              },
+              {
+                "id": "95d3b075-90af-4a16-b685-514da6459d3c",
+                "label": "0,5 л",
+                "price": "163"
+              }
+            ]
+          },
+          {
+            "id": "f6134623-3504-4d70-88c4-cb5b166876d3",
+            "name": "Кока-Кола/Пепси-Кола",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": null,
+            "variants": [
+              {
+                "id": "5a0ed80d-2236-427e-8eba-45a814c8b202",
+                "label": "2 л",
+                "price": "350"
+              },
+              {
+                "id": "40691eff-34de-4b43-aef5-9a4450e1b354",
+                "label": "1,5 л",
+                "price": "270"
+              },
+              {
+                "id": "b1e0c49d-4ab1-44be-95ba-954f00087e03",
+                "label": "1,0 л",
+                "price": "225"
+              },
+              {
+                "id": "c16b52c7-ec1b-4494-bc85-b832160df482",
+                "label": "0,5 л",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "1d097760-3a9d-4230-bd33-3094d88564ea",
+            "name": "Сок в ассортименте",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/sok-dobry.webp",
+            "variants": [
+              {
+                "id": "a2b0f4a6-bddd-48a9-a961-78f12b784b31",
+                "label": "1 л",
+                "price": "350"
+              }
+            ]
+          },
+          {
+            "id": "080d3ddd-1564-4b89-9338-c9b10a536280",
+            "name": "Компот",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/kompot.webp",
+            "variants": [
+              {
+                "id": "15af11f7-2f09-4d48-98f8-39ff999716de",
+                "label": "0,5 л",
+                "price": "150"
+              },
+              {
+                "id": "4ec9511e-38e6-4111-9cde-583e7b044c09",
+                "label": "1 л",
+                "price": "200"
+              }
+            ]
+          },
+          {
+            "id": "4c724774-a844-4acd-b190-e79a24e43265",
+            "name": "Лимонад Натахтари",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/natakhtari.webp",
+            "variants": [
+              {
+                "id": "048e8a13-1e46-41a6-9fdf-e0ea413309af",
+                "label": "0,5 л",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "f2204b67-35e5-4421-a568-5fc39050cd60",
+            "name": "Вода",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": null,
+            "variants": [
+              {
+                "id": "7cf8c3d3-d6f1-4668-9ac8-09e0cb538dd4",
+                "label": "0,5 л, газированная",
+                "price": "100"
+              },
+              {
+                "id": "353df416-8d4a-4342-8e51-8adf3dd7175f",
+                "label": "0,5 л, негазированная",
+                "price": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "seed-branch-center": [
+      {
+        "id": "b64aff9b-2e04-4e66-9f97-e4f56d2ebcf2",
+        "name": "Супы",
+        "dishes": [
+          {
+            "id": "cc643972-75d9-40cb-bb1d-01255f8529c8",
+            "name": "Суп в горшочке",
+            "description": "Ароматная баранина с картофелем и морковью, томлёная со специями в душистом бульоне. Традиционный вкус, который согреет душу.",
+            "ingredients": "баранина, картофель, морковь, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-8.png",
+            "variants": [
+              {
+                "id": "557a43e7-07f8-4480-9057-f99e4084294a",
+                "label": "350 г",
+                "price": "475"
+              }
+            ]
+          },
+          {
+            "id": "502d20bf-9cc8-47f0-9292-b32b9ebdb555",
+            "name": "Шурпа с бараниной",
+            "description": "Насыщенный бульон, приготовленный на медленном огне с добавленнием свежей зелени. Сытное, полезное и по-настоящему восточное блюдо!",
+            "ingredients": "баранина, репчатый лук, морковь, картофель, болгарский перец, помидоры, специи, зелень.",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-9.png",
+            "variants": [
+              {
+                "id": "fec58e10-3679-47ed-91f9-754f5d4143af",
+                "label": "400 г",
+                "price": "475"
+              }
+            ]
+          },
+          {
+            "id": "555c7d64-d4b9-4e52-9fb1-7ddcd3e8ab09",
+            "name": "Шурпа с говядиной",
+            "description": "Наваристый и ароматный бульон с нежными кусочками мяса, свежими овощами и натуральными специями.",
+            "ingredients": "говядина, репчатый лук, морковь, картофель, болгарский перец, помидоры, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-9.png",
+            "variants": [
+              {
+                "id": "72e4296c-72c8-407b-97f3-afd4c82fcfe9",
+                "label": "400 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "0a018072-dd49-4383-a89a-b47839e8a768",
+            "name": "Пельмени с бульоном",
+            "description": "Аппетитные пельмени, подаются с горячим наваристым бульоном – просто и вкусно.",
+            "ingredients": "нежное мясо, тонкое тесто, прозрачный бульон, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0269-Photoroom-4.png",
+            "variants": [
+              {
+                "id": "9a8eb290-d482-457b-99ac-7158fd73adbe",
+                "label": "300 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "c05e54c0-1d18-49d0-86bd-4e43927d3ba7",
+            "name": "Мастава",
+            "description": "Густой ароматный суп, сваренный на медленном огне из свежих овощей и мягкой говядины. Тёплый восточный вкус.",
+            "ingredients": "говядина, рис, картофель, морковь, лук, помидоры, болгарский перец, чеснок, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-19.png",
+            "variants": [
+              {
+                "id": "0761cba2-b3f6-4354-9987-4e4eae8857eb",
+                "label": "300 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "82e17db7-887a-4096-a754-cea7db433681",
+            "name": "Лагман",
+            "description": "Насыщенный мясной суп с упругой домашней лапшой, овощами и пряным букетом восточных специй.",
+            "ingredients": "говядина, лапша ручной тяжки, болгарский перец, морковь, редька, чеснок, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-18.png",
+            "variants": [
+              {
+                "id": "cbfcdc61-0d34-468c-8202-cbe4615ab2d3",
+                "label": "400 г",
+                "price": "463"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3e83ca5c-5804-4f7a-a3cd-cdedcd2790ea",
+        "name": "Горячие блюда",
+        "dishes": [
+          {
+            "id": "e6ed66d0-1c84-4208-b86b-49b399d03a67",
+            "name": "Чупонча",
+            "description": "Ароматное узбекское жаркое с нежной бараниной и золотистым картофелем, томлёное в казане с овощами и пряностями.",
+            "ingredients": "баранина, картофель, лук, морковь, томаты, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-10.png",
+            "variants": [
+              {
+                "id": "4e050e79-1207-4285-91c0-e7ce35b741cc",
+                "label": "1 кг",
+                "price": "2500"
+              }
+            ]
+          },
+          {
+            "id": "a7bd5ba6-8b87-4975-97b4-b3a00f1c57a3",
+            "name": "Лагман жареный",
+            "description": "Сытное и ароматное блюдо. Нежные кусочки говядины с овощами, специями и лапшой. Жареное яйцо, придаёт блюду особую сочность и насыщенность.",
+            "ingredients": "говядина, лапша, болгарский перец, лук, морковь, чеснок, помидоры, яйцо, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-10.png",
+            "variants": [
+              {
+                "id": "506185f1-b783-494b-8a50-911b476c40f5",
+                "label": "400 г",
+                "price": "500"
+              }
+            ]
+          },
+          {
+            "id": "2650e5c9-c5ca-4d68-8f73-d36d97c286af",
+            "name": "Баранина жареная",
+            "description": "Нежные кусочки баранины с золотистой корочкой и насыщенным вкусом.",
+            "ingredients": "баранина, лук, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-12.png",
+            "variants": [
+              {
+                "id": "46f4743f-0d7c-4e0c-a358-69ddea89515e",
+                "label": "1 кг",
+                "price": "2875"
+              },
+              {
+                "id": "bccd9867-9777-45e5-b3b5-02f1dbf8e33d",
+                "label": "0,5 кг",
+                "price": "1600"
+              },
+              {
+                "id": "1b1cbd0d-5701-4a53-ba8e-0c3ad600f3cf",
+                "label": "0,3 кг",
+                "price": "900"
+              }
+            ]
+          },
+          {
+            "id": "e7bbc24c-889c-4d8c-b5bd-2d61480aba9c",
+            "name": "Говядина жареная",
+            "description": "Сочная говядина, обжаренная до румяной корочки, с луком и ароматными специями.",
+            "ingredients": "говядина, лук, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-12.png",
+            "variants": [
+              {
+                "id": "ffe64e84-93a2-4eeb-b931-be6b4086c58e",
+                "label": "1 кг",
+                "price": "2875"
+              },
+              {
+                "id": "95e67dd6-f741-4aff-843d-cd658fd45330",
+                "label": "0,5 кг",
+                "price": "1600"
+              },
+              {
+                "id": "4a2e98cf-7fb8-49f1-b72b-86b452ea1875",
+                "label": "0,3 кг",
+                "price": "900"
+              }
+            ]
+          },
+          {
+            "id": "7cc23e26-de2e-4604-af35-4c48cf73ede2",
+            "name": "Гуляш",
+            "description": "На выбор три гарнира: картофельное пюре, гречка и макароны. Домашний вкус и сытость на весь день.",
+            "ingredients": "гречневая крупа/макароны/картофель на выбор, говядина, томатная подливка, специи, зелень,, молоко, сливочное масло, соль",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0269-Photoroom-5.png",
+            "variants": [
+              {
+                "id": "57a07593-4948-4a0e-a7c4-318f4186cd3e",
+                "label": "450 г",
+                "price": "463"
+              }
+            ]
+          },
+          {
+            "id": "37d72bec-a018-4643-82da-1b93b750775f",
+            "name": "Пельмени со сметаной",
+            "description": "Нежные пельмешки ручной лепки с сочной начинкой, подаются со свежей сметаной.",
+            "ingredients": "тесто, мясной фарш, сметана, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-13.png",
+            "variants": [
+              {
+                "id": "1531d519-58b6-4ffd-b9d0-589edb77af70",
+                "label": "300 г",
+                "price": "500"
+              }
+            ]
+          },
+          {
+            "id": "17987958-415a-4a54-8b9d-8c8def1b6be0",
+            "name": "Манты",
+            "description": "Пышные паровые пирожки с сочной мясной начинкой, подаются со сметанойи зеленью.",
+            "ingredients": "говядина, говяжий жир, репчатый лук, специи, тесто",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-13.png",
+            "variants": [
+              {
+                "id": "6158f233-2266-4d9c-98b6-6b04d078cb28",
+                "label": "350 г (5 шт)",
+                "price": "463"
+              },
+              {
+                "id": "b51f7d33-4dbb-4598-8916-660d8d17eb2a",
+                "label": "50 г (1 шт)",
+                "price": "100"
+              }
+            ]
+          },
+          {
+            "id": "5f2b3fb6-81f1-45a6-a9f2-72b9560384cf",
+            "name": "Яйцо жареное",
+            "description": "Идеально на завтрак.",
+            "ingredients": "яйцо, масло растительное, соль",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-15.png",
+            "variants": [
+              {
+                "id": "78bae369-7925-4295-b6a0-fa772a255808",
+                "label": "1 шт",
+                "price": "100"
+              }
+            ]
+          },
+          {
+            "id": "f0ad3b13-201e-4a25-bb08-d3f5682084ef",
+            "name": "Казан-Кебаб (баранина)",
+            "description": "Сочное мясо, приготовленное в казане, обжаренное до румяной корочки с луком, специями и картофелем.",
+            "ingredients": "баранина, картофель, лук, растительное масло, чеснок, зира, кориандр, чёрный перец, соль, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-18.png",
+            "variants": [
+              {
+                "id": "05bb17bb-f227-40a3-8017-4c8761a525e6",
+                "label": "400 г",
+                "price": "688"
+              }
+            ]
+          },
+          {
+            "id": "e05f0b9e-ce18-425d-ba27-568dfa9db52f",
+            "name": "Казан-Кебаб (говядина)",
+            "description": "Нежная говядина, обжаренная в казане с золотистым луком, ароматными специями и картофелем.",
+            "ingredients": "говядина, картофель, лук, растительное масло, чеснок, зира, кориандр, чёрный перец, соль, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-17.png",
+            "variants": [
+              {
+                "id": "e79bbb35-ceac-4fbb-886d-f61151226a15",
+                "label": "400 г",
+                "price": "688"
+              }
+            ]
+          },
+          {
+            "id": "9c611de3-df0f-4488-94ba-1fe4de0b70d2",
+            "name": "Плов",
+            "description": "Настоящая классика восточной кухни, приготовленная по традиционному рецепту.",
+            "ingredients": "говядина, рис, морковь, репчатый лук, чеснок, нут, ароматные специи, растительное масло",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-14.png",
+            "variants": [
+              {
+                "id": "c584c5e2-1c7d-406b-8496-90cb74e47f54",
+                "label": "1 порция, 400 г",
+                "price": "463"
+              },
+              {
+                "id": "dbe4bfdb-66b5-4801-8a9b-5f404fa875b2",
+                "label": "1 кг",
+                "price": "4125"
+              }
+            ]
+          },
+          {
+            "id": "bc0cb18b-2b2e-4b84-a1f5-5dbf617e9c87",
+            "name": "Люля кебаб",
+            "description": "Ароматный фарш из баранины на мангале, с пряностями и хрустящей корочкой.",
+            "ingredients": "баранина, лук, специи, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-14.png",
+            "variants": [
+              {
+                "id": "fe59a4e7-170a-49b0-b928-afd534128884",
+                "label": "120 г",
+                "price": "300"
+              },
+              {
+                "id": "2ed07174-fbad-47de-be53-c8fed10c5f01",
+                "label": "170 г",
+                "price": "525"
+              }
+            ]
+          },
+          {
+            "id": "49078e1a-879f-4ee9-a0a1-5f7891dee43e",
+            "name": "Шашлык (баранина)",
+            "description": "Мягкая, сочная баранина на углях, пропитанная дымком и специями.",
+            "ingredients": "баранина, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-16.png",
+            "variants": [
+              {
+                "id": "3dedcdc2-184a-4fcb-ad4c-228b9bc35814",
+                "label": "170 г",
+                "price": "588"
+              }
+            ]
+          },
+          {
+            "id": "394f54db-2d89-4f6f-97d8-107ed869f0ef",
+            "name": "Шашлык (говядина)",
+            "description": "Сочная говядина, обжаренная до румяной корочки, с луком и ароматными специями.",
+            "ingredients": "говядина, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-16.png",
+            "variants": [
+              {
+                "id": "60dd3849-0be3-4c5e-8236-791740427c39",
+                "label": "170 г",
+                "price": "588"
+              }
+            ]
+          },
+          {
+            "id": "e505ba1f-3e4d-42ca-b312-72a36f2e4519",
+            "name": "Шашлык куриные ножки (голен)",
+            "description": "маринованное в специях и травах, приготовленное на углях.",
+            "ingredients": "курица, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-17.png",
+            "variants": [
+              {
+                "id": "cf4c3124-7075-430d-a687-71f685a58424",
+                "label": "170 г",
+                "price": "500"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1f704c77-7cd4-4d73-a5fe-38850b4e309a",
+        "name": "Выпечка",
+        "dishes": [
+          {
+            "id": "090db844-c2ed-4de5-af5f-faa8430f96cb",
+            "name": "Лепёшка из тандыра",
+            "description": "Пышная лепёшка с хрустящей корочкой и нежной мякотью, приготовленная в традиционной глиняной печи. Идеально сочетается с мясными блюдами и супами.",
+            "ingredients": "мука, вода, дрожжи/закваска, соль, кунжут",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-11.png",
+            "variants": [
+              {
+                "id": "b1c97ba8-c150-4cc6-8124-7d290e765e57",
+                "label": "1 шт",
+                "price": "85"
+              },
+              {
+                "id": "0c12136e-aa66-413e-91de-58a61752821a",
+                "label": "половинка",
+                "price": "43"
+              }
+            ]
+          },
+          {
+            "id": "342c9718-3833-49fa-9f4a-ace21be4fb88",
+            "name": "Самса из тандыра",
+            "description": "Сочное говяжье мясо заворачивается в хрустящее слоёное тесто и выпекается до золотистой корочки.",
+            "ingredients": "мясо, говяжий жир, репчатый лук, ароматные специи, слоёное тесто",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-11.png",
+            "variants": [
+              {
+                "id": "2cd4eee0-cc43-41ad-ab5c-2feca2b28dd4",
+                "label": "1 шт",
+                "price": "185"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ed7521e0-0777-4a53-848d-c161c2757207",
+        "name": "Салаты",
+        "dishes": [
+          {
+            "id": "0dc8d7ff-cf89-410c-ab89-35cff0de9c30",
+            "name": "Весенний салат",
+            "description": "Свежий, лёгкий, с молодой зеленью.",
+            "ingredients": "помидоры, огурцы, лук, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-6.png",
+            "variants": [
+              {
+                "id": "015be39b-a4e3-4934-a355-ffc4cd4c611d",
+                "label": "300 г",
+                "price": "382"
+              }
+            ]
+          },
+          {
+            "id": "39b4a9e2-c190-4522-810c-a1bab5d1da31",
+            "name": "Свежий салат",
+            "description": "Вкус лета и ничего лишнего.",
+            "ingredients": "помидоры, огурцы, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-6.png",
+            "variants": [
+              {
+                "id": "29cc094a-45dc-4134-86ee-d212077b97aa",
+                "label": "300 г",
+                "price": "357"
+              }
+            ]
+          },
+          {
+            "id": "7e17e642-8ba3-4f5d-a8e5-64392a4a2ea9",
+            "name": "Пик Памира",
+            "description": "Нежный салат с сочной курицей",
+            "ingredients": "пекинская капуста, мясо курицы отварное, мойонез",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-21.png",
+            "variants": [
+              {
+                "id": "6506e37e-7918-4abf-86ca-6796017d7459",
+                "label": "200 г",
+                "price": "357"
+              }
+            ]
+          },
+          {
+            "id": "9ed34933-14bd-4c95-86b2-b61f64395173",
+            "name": "Греческий салат",
+            "description": "Классический средиземноморский салат — сочный, лёгкий и ароматный, с натуральным сыром и маслом.",
+            "ingredients": "огурцы, помидоры, болгарский перец, красный лук, маслины, сыр фета, оливковое масло, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-20.png",
+            "variants": [
+              {
+                "id": "d78dff91-6584-49e2-874c-a091cddd6ed8",
+                "label": "250 г",
+                "price": "344"
+              }
+            ]
+          },
+          {
+            "id": "48aed1f0-da91-44f7-9239-21274188b7e7",
+            "name": "Оливье",
+            "description": "Классика с нежной ветчиной, хрустящими огурчиками и майонезом.",
+            "ingredients": "картофель, морковь, яйца, солёные огурцы, зелёный горошек, колбаса, майонез",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-23.png",
+            "variants": [
+              {
+                "id": "f274f275-a15f-4ed3-92d4-14391af60900",
+                "label": "200 г",
+                "price": "333"
+              }
+            ]
+          },
+          {
+            "id": "8b416a9d-14bb-4b6a-a80f-d1b29ab72f22",
+            "name": "Цезарь",
+            "description": "Хрустящие листья, ароматная курочка, аппетитные сухарики.",
+            "ingredients": "салат, куриное филе-гриль, пармезан, крутоны, соус \"Цезарь\"",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-22.png",
+            "variants": [
+              {
+                "id": "e8f37fc8-edfa-4476-87de-7da8069423a6",
+                "label": "200 г",
+                "price": "357"
+              }
+            ]
+          },
+          {
+            "id": "a8cfeb76-c53f-4be8-8e00-951e6fde595f",
+            "name": "Шакароп с чакка",
+            "description": "Традиционный салат с кисломолочным соусом.",
+            "ingredients": "помидоры, свежие огурцы, чакка, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-22.png",
+            "variants": [
+              {
+                "id": "6953f5d8-7e8e-4df0-8ba6-e528594420e5",
+                "label": "200 г",
+                "price": "375"
+              }
+            ]
+          },
+          {
+            "id": "d4b9d7e9-8b6e-4246-b53c-d8a1fb85666f",
+            "name": "Чака",
+            "description": "Густой кисломолочный продукт с мягким вкусом – идеальный соус к овощам.",
+            "ingredients": "отцеженный йогурт или катык, соль по вкусу",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-21.png",
+            "variants": [
+              {
+                "id": "d67007f9-eda8-420e-b966-841b30e32343",
+                "label": "300 г",
+                "price": "213"
+              },
+              {
+                "id": "12fe3bbe-3eb3-4b30-ad43-52e5d8c30b13",
+                "label": "150 г",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "a0ff0713-ff90-4c5c-a7e5-d6f2d3ebdab7",
+            "name": "Корейский салат",
+            "description": "Острый, сочный, с чесночной ноткой.",
+            "ingredients": "морковь, зелень, специи",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/11/IMG_0269-Photoroom-24.png",
+            "variants": [
+              {
+                "id": "9a4f54c2-caea-4e79-88bd-11fc09b01d32",
+                "label": "250 г",
+                "price": "300"
+              }
+            ]
+          },
+          {
+            "id": "3f6375dc-1c45-4c8d-85e1-f283863d4c28",
+            "name": "Соленья",
+            "description": "Кисленькие, хрустящие, с душистыми травами.",
+            "ingredients": "капуста, свекла, огурцы, зелень",
+            "photoUrl": "https://shar-shara.ru/wp-content/uploads/2025/10/IMG_0254-Photoroom-23.png",
+            "variants": [
+              {
+                "id": "1cf380e6-974b-4d92-96a3-02789952927e",
+                "label": "150 г",
+                "price": "325"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dbcb4c55-50ba-4ead-a275-18dbc343bbac",
+        "name": "Десерты",
+        "dishes": [
+          {
+            "id": "9d78cd68-a980-4255-9412-3694e0d3d516",
+            "name": "Восточные сладости/Пирожные",
+            "description": "Актуальный ассортимент можно узнать у официанта или на кассе.",
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/deserty.webp",
+            "variants": [
+              {
+                "id": "0f7b6796-94a4-4a10-aa1d-66840f57a0c5",
+                "label": "1 шт",
+                "price": "180"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b5b6670e-477f-47be-95e9-da9ddb036b4e",
+        "name": "Напитки",
+        "dishes": [
+          {
+            "id": "4e3f5a20-c9b6-4275-886c-010760f059cc",
+            "name": "Арси-Кола",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/rc-cola.webp",
+            "variants": [
+              {
+                "id": "b7788276-6a14-44e3-aa88-7ca892ac146b",
+                "label": "1,5 л",
+                "price": "325"
+              },
+              {
+                "id": "d1fbc127-173e-4522-b759-caae7bb670ac",
+                "label": "1,0 л",
+                "price": "275"
+              },
+              {
+                "id": "95d3b075-90af-4a16-b685-514da6459d3c",
+                "label": "0,5 л",
+                "price": "163"
+              }
+            ]
+          },
+          {
+            "id": "f6134623-3504-4d70-88c4-cb5b166876d3",
+            "name": "Кока-Кола/Пепси-Кола",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": null,
+            "variants": [
+              {
+                "id": "5a0ed80d-2236-427e-8eba-45a814c8b202",
+                "label": "2 л",
+                "price": "350"
+              },
+              {
+                "id": "40691eff-34de-4b43-aef5-9a4450e1b354",
+                "label": "1,5 л",
+                "price": "270"
+              },
+              {
+                "id": "b1e0c49d-4ab1-44be-95ba-954f00087e03",
+                "label": "1,0 л",
+                "price": "225"
+              },
+              {
+                "id": "c16b52c7-ec1b-4494-bc85-b832160df482",
+                "label": "0,5 л",
+                "price": "150"
+              }
+            ]
+          },
+          {
+            "id": "1d097760-3a9d-4230-bd33-3094d88564ea",
+            "name": "Сок в ассортименте",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/sok-dobry.webp",
+            "variants": [
+              {
+                "id": "a2b0f4a6-bddd-48a9-a961-78f12b784b31",
+                "label": "1 л",
+                "price": "367"
+              }
+            ]
+          },
+          {
+            "id": "080d3ddd-1564-4b89-9338-c9b10a536280",
+            "name": "Компот",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/kompot.webp",
+            "variants": [
+              {
+                "id": "15af11f7-2f09-4d48-98f8-39ff999716de",
+                "label": "0,5 л",
+                "price": "150"
+              },
+              {
+                "id": "4ec9511e-38e6-4111-9cde-583e7b044c09",
+                "label": "1 л",
+                "price": "200"
+              }
+            ]
+          },
+          {
+            "id": "4c724774-a844-4acd-b190-e79a24e43265",
+            "name": "Лимонад Натахтари",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": "https://api.shar-shara.ru/uploads/menu/natakhtari.webp",
+            "variants": [
+              {
+                "id": "048e8a13-1e46-41a6-9fdf-e0ea413309af",
+                "label": "0,5 л",
+                "price": "200"
+              }
+            ]
+          },
+          {
+            "id": "f2204b67-35e5-4421-a568-5fc39050cd60",
+            "name": "Вода",
+            "description": null,
+            "ingredients": null,
+            "photoUrl": null,
+            "variants": [
+              {
+                "id": "7cf8c3d3-d6f1-4668-9ac8-09e0cb538dd4",
+                "label": "0,5 л, газированная",
+                "price": "100"
+              },
+              {
+                "id": "353df416-8d4a-4342-8e51-8adf3dd7175f",
+                "label": "0,5 л, негазированная",
+                "price": "100"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

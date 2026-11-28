@@ -3,6 +3,7 @@
 Rebuild: python3 scripts/build-illustrated-menu.py && python3 scripts/export-illustrated-menu.py
 Requires Pillow, fonttools (builder) and Playwright with Chromium.
 """
+import argparse
 import base64
 import io
 import json
@@ -13,7 +14,11 @@ from playwright.sync_api import sync_playwright
 
 ROOT=Path(__file__).resolve().parents[1]
 MANIFEST=ROOT/'assets/basilik/menu-pages/manifest.json'
-pages=json.loads(MANIFEST.read_text())
+parser=argparse.ArgumentParser()
+parser.add_argument('--append',action='store_true',help='Export only the extension pages; retain approved originals')
+args=parser.parse_args()
+existing=json.loads(MANIFEST.read_text())
+pages=json.loads((MANIFEST.parent/'extension-manifest.json').read_text()) if args.append else existing
 with sync_playwright() as p:
     executable=shutil.which('chromium') or shutil.which('google-chrome')
     options={'headless':True,'args':['--no-sandbox']}
@@ -32,9 +37,12 @@ with sync_playwright() as p:
         item['fullSrc']=str(source.relative_to(ROOT))
         print(item['src'],target.stat().st_size)
     browser.close()
+if args.append:
+    extension_keys={Path(item['fullSrc']).stem for item in pages}
+    pages=[item for item in existing if Path(item.get('fullSrc',item['src'])).stem not in extension_keys]+pages
 MANIFEST.write_text(json.dumps(pages,ensure_ascii=False,indent=2)+'\n')
 raw=(ROOT/'menu-data.js').read_text()
 data=json.loads(raw[raw.index('{'):raw.rindex('}')+1])
 data['pages']=pages
 data['archive']=False
-(ROOT/'menu-data.js').write_text('// Предварительное меню Базилика; цены в рисованных листах демонстрационные.\nwindow.TEBURASI_MENU = '+json.dumps(data,ensure_ascii=False,indent=2)+';\n')
+(ROOT/'menu-data.js').write_text('// Полное меню Shar-Shara. Первые семь рисованных листов сохранены; новые используют цены источника.\nwindow.TEBURASI_MENU = '+json.dumps(data,ensure_ascii=False,indent=2)+';\n')

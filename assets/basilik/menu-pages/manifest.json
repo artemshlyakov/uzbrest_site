@@ -133,5 +133,203 @@
       "dish-4c724774": 220
     },
     "fullSrc": "assets/basilik/menu-pages/07.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/08.webp",
+    "title": "Ещё горячего",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-bc337c76",
+      "dish-7cc23e26",
+      "dish-155d9542",
+      "dish-ea51fc2b"
+    ],
+    "actualPrices": {
+      "dish-bc337c76": 463,
+      "dish-7cc23e26": 463,
+      "dish-155d9542": 450,
+      "dish-ea51fc2b": 650
+    },
+    "priceSource": "shar-shara.ru",
+    "fullSrc": "assets/basilik/menu-pages/08.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/09.webp",
+    "title": "Сытный обед",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-a34c2789",
+      "dish-37d72bec",
+      "dish-5f2b3fb6",
+      "dish-49b31f01"
+    ],
+    "actualPrices": {
+      "dish-a34c2789": 450,
+      "dish-37d72bec": 500,
+      "dish-5f2b3fb6": 100,
+      "dish-49b31f01": 85
+    },
+    "priceSource": "shar-shara.ru",
+    "fullSrc": "assets/basilik/menu-pages/09.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/10.webp",
+    "title": "Шаверма в лаваше",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-45035596",
+      "dish-279ef6a8",
+      "dish-e9c8b5d5",
+      "dish-3975672a",
+      "dish-6ecec897"
+    ],
+    "actualPrices": {
+      "dish-45035596": 400,
+      "dish-279ef6a8": 400,
+      "dish-e9c8b5d5": 488,
+      "dish-3975672a": 500,
+      "dish-6ecec897": 437
+    },
+    "priceSource": "shar-shara.ru",
+    "fullSrc": "assets/basilik/menu-pages/10.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/11.webp",
+    "title": "Пряные вкусы",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-b5de6e82",
+      "dish-128aac86",
+      "dish-ff521a3f",
+      "dish-65d089b4",
+      "dish-2c1662b5",
+      "dish-bd089093"
+    ],
+    "actualPrices": {
+      "dish-b5de6e82": 425,
+      "dish-128aac86": 425,
+      "dish-ff521a3f": 425,
+      "dish-65d089b4": 239,
+      "dish-2c1662b5": 587,
+      "dish-bd089093": 587
+    },
+    "priceSource": "shar-shara.ru",
+    "fullSrc": "assets/basilik/menu-pages/11.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/12.webp",
+    "title": "Горячий перекус",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-b43c4a7d",
+      "dish-45311173",
+      "dish-733baf12",
+      "dish-04aabc9d",
+      "dish-e9b70daf"
+    ],
+    "actualPrices": {
+      "dish-b43c4a7d": 613,
+      "dish-45311173": 400,
+      "dish-733baf12": 400,
+      "dish-04aabc9d": 413,
+      "dish-e9b70daf": 50
+    },
+    "priceSource": "shar-shara.ru",
+    "fullSrc": "assets/basilik/menu-pages/12.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/13.webp",
+    "title": "Курица и гарниры",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-4c606af4",
+      "dish-3a2f2c6f",
+      "dish-dacfa34c",
+      "dish-14163704",
+      "dish-cb1d82c2",
+      "dish-d519c512"
+    ],
+    "actualPrices": {
+      "dish-4c606af4": 250,
+      "dish-3a2f2c6f": 250,
+      "dish-dacfa34c": 250,
+      "dish-14163704": 250,
+      "dish-cb1d82c2": 150,
+      "dish-d519c512": 150
+    },
+    "priceSource": "shar-shara.ru",
+    "fullSrc": "assets/basilik/menu-pages/13.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/14.webp",
+    "title": "Овощи к столу",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-9ed34933",
+      "dish-a0ff0713",
+      "dish-48aed1f0",
+      "dish-8b416a9d",
+      "dish-fd1bce16",
+      "dish-6504efb6"
+    ],
+    "actualPrices": {
+      "dish-9ed34933": 344,
+      "dish-a0ff0713": 300,
+      "dish-48aed1f0": 333,
+      "dish-8b416a9d": 357,
+      "dish-fd1bce16": 150,
+      "dish-6504efb6": 150
+    },
+    "priceSource": "shar-shara.ru",
+    "fullSrc": "assets/basilik/menu-pages/14.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/15.webp",
+    "title": "Прохлада",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-f87f7c64",
+      "dish-63be8fcf",
+      "dish-4e3f5a20",
+      "dish-f2204b67",
+      "dish-f6134623"
+    ],
+    "actualPrices": {
+      "dish-f87f7c64": 280,
+      "dish-63be8fcf": 320,
+      "dish-4e3f5a20": 325,
+      "dish-f2204b67": 100,
+      "dish-f6134623": 350
+    },
+    "priceSource": "shar-shara.ru",
+    "fullSrc": "assets/basilik/menu-pages/15.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/16.webp",
+    "title": "Кувшин на стол",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-85539fcf",
+      "dish-875c60c8",
+      "dish-2f230a05",
+      "dish-1d097760"
+    ],
+    "actualPrices": {
+      "dish-85539fcf": 200,
+      "dish-875c60c8": 150,
+      "dish-2f230a05": 300,
+      "dish-1d097760": 367
+    },
+    "priceSource": "shar-shara.ru",
+    "fullSrc": "assets/basilik/menu-pages/16.svg"
   }
 ]
