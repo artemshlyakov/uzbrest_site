@@ -206,7 +206,7 @@
         button.setAttribute('aria-label', 'Открыть лист: ' + page.title);
         const image = document.createElement('img');
         image.src = asset(page.src);
-        image.alt = page.title + ' — рисованная коллекция Базилика';
+        image.alt = page.title + ' — архив оригинального меню Teburasi';
         image.width = page.width;
         image.height = page.height;
         image.loading = 'lazy';
@@ -219,7 +219,7 @@
         const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
         use.setAttribute('href', '#ui-arrow');
         icon.append(use);
-        caption.append(element('i', '', 'Базилик'), element('span', '', page.title), icon);
+        caption.append(element('i', '', String(index + 1).padStart(2, '0')), element('span', '', page.title), icon);
         button.append(image, caption);
         atlas.append(button);
       });

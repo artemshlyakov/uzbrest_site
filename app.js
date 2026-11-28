@@ -77,8 +77,7 @@ document.querySelectorAll('[role="tablist"]').forEach(list => {
 
 const photos = [
   ['basilik/dastarkhan.webp', 'За общим столом — иллюстрация Базилика'],
-  ['basilik/vladimir.webp', 'Владимир с восточным акцентом'],
-  ['basilik/illustrated-menu.webp', 'Наш рисованный дастархан']
+  ['basilik/vladimir.webp', 'Владимир с восточным акцентом']
 ];
 const drawings = window.TEBURASI_MENU.pages.map(page => [page.src.replace(/^assets\//, ''), page.title]);
 let galleryItems = photos;

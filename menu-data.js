@@ -1,4 +1,4 @@
-// Наполнение на основе публичного меню shar-shara.ru; цены Базилика пока не утверждены.
+// Предварительное наполнение на основе shar-shara.ru. Рисованные листы временно сохранены из оригинала.
 window.TEBURASI_MENU = {
   "items": [
     {
@@ -11,7 +11,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/plov.webp"
+        "src": "assets/menu-food/plov.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          94.06,
+          -34.94,
+          537.88,
+          537.88
+        ]
       }
     },
     {
@@ -24,7 +32,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-e6ed66d0.webp"
+        "src": "assets/menu-food/dish-e6ed66d0.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          66.37,
+          -46.63,
+          567.26,
+          567.26
+        ]
       }
     },
     {
@@ -37,7 +53,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-a7bd5ba6.webp"
+        "src": "assets/menu-food/dish-a7bd5ba6.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          78.06,
+          -20.44,
+          537.88,
+          537.88
+        ]
       }
     },
     {
@@ -50,7 +74,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-2650e5c9.webp"
+        "src": "assets/menu-food/dish-2650e5c9.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          88.97,
+          -22.03,
+          522.06,
+          522.06
+        ]
       }
     },
     {
@@ -63,7 +95,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-e7bbc24c.webp"
+        "src": "assets/menu-food/dish-e7bbc24c.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          92.65,
+          -32.85,
+          527.71,
+          527.71
+        ]
       }
     },
     {
@@ -76,7 +116,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/manty.webp"
+        "src": "assets/menu-food/manty.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          89.97,
+          -19.03,
+          522.06,
+          522.06
+        ]
       }
     },
     {
@@ -89,7 +137,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/kazan-kebab.webp"
+        "src": "assets/menu-food/kazan-kebab.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          74.32,
+          -27.68,
+          533.36,
+          533.36
+        ]
       }
     },
     {
@@ -102,7 +158,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-e05f0b9e.webp"
+        "src": "assets/menu-food/dish-e05f0b9e.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          85.36,
+          -16.64,
+          515.28,
+          515.28
+        ]
       }
     },
     {
@@ -115,7 +179,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-cc643972.webp"
+        "src": "assets/menu-food/dish-cc643972.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          114.94,
+          8.44,
+          479.12,
+          479.12
+        ]
       }
     },
     {
@@ -128,7 +200,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/shurpa.webp"
+        "src": "assets/menu-food/shurpa.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          141.85,
+          27.35,
+          437.31,
+          437.31
+        ]
       }
     },
     {
@@ -141,7 +221,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-555c7d64.webp"
+        "src": "assets/menu-food/dish-555c7d64.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          142.04,
+          27.54,
+          433.92,
+          433.92
+        ]
       }
     },
     {
@@ -154,7 +242,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-0a018072.webp"
+        "src": "assets/menu-food/dish-0a018072.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          140.39,
+          17.39,
+          445.22,
+          445.22
+        ]
       }
     },
     {
@@ -167,7 +263,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/mastava.webp"
+        "src": "assets/menu-food/mastava.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          99.7,
+          -45.3,
+          561.61,
+          561.61
+        ]
       }
     },
     {
@@ -180,7 +284,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/lagman.webp"
+        "src": "assets/menu-food/lagman.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          99.47,
+          -6.03,
+          496.07,
+          496.07
+        ]
       }
     },
     {
@@ -193,7 +305,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/lyulya.webp"
+        "src": "assets/menu-food/lyulya.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          60.77,
+          -147.23,
+          699.47,
+          699.47
+        ]
       }
     },
     {
@@ -206,7 +326,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/shashlik.webp"
+        "src": "assets/menu-food/shashlik.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          39.05,
+          -151.45,
+          711.9,
+          711.9
+        ]
       }
     },
     {
@@ -219,7 +347,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-394f54db.webp"
+        "src": "assets/menu-food/dish-394f54db.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          27.47,
+          -160.53,
+          722.07,
+          722.07
+        ]
       }
     },
     {
@@ -232,7 +368,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-e505ba1f.webp"
+        "src": "assets/menu-food/dish-e505ba1f.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          98.52,
+          -23.48,
+          529.97,
+          529.97
+        ]
       }
     },
     {
@@ -245,7 +389,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/lepeshka.webp"
+        "src": "assets/menu-food/lepeshka.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          109.69,
+          -18.81,
+          509.63,
+          509.63
+        ]
       }
     },
     {
@@ -258,7 +410,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/samsa.webp"
+        "src": "assets/menu-food/samsa.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          82.83,
+          -26.17,
+          559.35,
+          559.35
+        ]
       }
     },
     {
@@ -271,7 +431,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-0dc8d7ff.webp"
+        "src": "assets/menu-food/dish-0dc8d7ff.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          26.22,
+          -120.28,
+          691.56,
+          691.56
+        ]
       }
     },
     {
@@ -284,7 +452,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-39b4a9e2.webp"
+        "src": "assets/menu-food/dish-39b4a9e2.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          54.88,
+          -65.12,
+          593.25,
+          593.25
+        ]
       }
     },
     {
@@ -297,7 +473,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-7e17e642.webp"
+        "src": "assets/menu-food/dish-7e17e642.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          50.71,
+          -67.79,
+          613.59,
+          613.59
+        ]
       }
     },
     {
@@ -310,7 +494,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/shakarop.webp"
+        "src": "assets/menu-food/shakarop.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          84.18,
+          -47.82,
+          570.65,
+          570.65
+        ]
       }
     },
     {
@@ -323,7 +515,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-d4b9d7e9.webp"
+        "src": "assets/menu-food/dish-d4b9d7e9.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          128.14,
+          -29.36,
+          501.72,
+          501.72
+        ]
       }
     },
     {
@@ -336,7 +536,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-3f6375dc.webp"
+        "src": "assets/menu-food/dish-3f6375dc.webp",
+        "width": 720,
+        "height": 480,
+        "crop": [
+          65.66,
+          -41.84,
+          579.69,
+          579.69
+        ]
       }
     },
     {
@@ -349,7 +557,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": true,
       "photo": {
-        "src": "assets/menu-food/dish-9d78cd68.webp"
+        "src": "assets/menu-food/dish-9d78cd68.webp",
+        "width": 900,
+        "height": 600,
+        "crop": [
+          -56.24,
+          -224.74,
+          1012.48,
+          1012.48
+        ]
       }
     },
     {
@@ -362,7 +578,15 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": false,
       "photo": {
-        "src": "assets/menu-food/dish-080d3ddd.webp"
+        "src": "assets/menu-food/dish-080d3ddd.webp",
+        "width": 481,
+        "height": 782,
+        "crop": [
+          -174.21,
+          -23.71,
+          829.42,
+          829.42
+        ]
       }
     },
     {
@@ -375,16 +599,102 @@ window.TEBURASI_MENU = {
       "variants": [],
       "food": false,
       "photo": {
-        "src": "assets/menu-food/dish-4c724774.webp"
+        "src": "assets/menu-food/dish-4c724774.webp",
+        "width": 861,
+        "height": 785,
+        "crop": [
+          -28.78,
+          -66.28,
+          917.56,
+          917.56
+        ]
       }
     }
   ],
   "pages": [
     {
-      "src": "assets/basilik/illustrated-menu.webp",
-      "title": "Дастархан Базилика",
-      "width": 1024,
-      "height": 1536
+      "src": "assets/menu-pages/01.jpg",
+      "title": "Стартеры",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/02.jpg",
+      "title": "Горячие закуски",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/03.jpg",
+      "title": "Цукемоно",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/04.jpg",
+      "title": "Рамены и агемоно",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/05.jpg",
+      "title": "Горячее и десерты",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/06.jpg",
+      "title": "Коктейли в банках",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/07.jpg",
+      "title": "Коктейли, вино и чай",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/08.jpg",
+      "title": "Крепкое и горячие напитки",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/09.jpg",
+      "title": "Сётю и десертное саке",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/10.jpg",
+      "title": "Саке: базовый премиум",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/11.jpg",
+      "title": "Саке: суперпремиум",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/12.jpg",
+      "title": "Саке: премиум и сеты",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/13.jpg",
+      "title": "Умэсю и игристое саке",
+      "width": 480,
+      "height": 853
+    },
+    {
+      "src": "assets/menu-pages/14.jpg",
+      "title": "Настойки и пиво",
+      "width": 480,
+      "height": 853
     }
   ],
   "foodCategories": [
@@ -394,5 +704,6 @@ window.TEBURASI_MENU = {
     "Выпечка",
     "Салаты",
     "Десерты"
-  ]
+  ],
+  "archive": true
 };
