@@ -1,4 +1,4 @@
-// Предварительное наполнение на основе shar-shara.ru. Рисованные листы временно сохранены из оригинала.
+// Предварительное меню Базилика; цены в рисованных листах демонстрационные.
 window.TEBURASI_MENU = {
   "items": [
     {
@@ -15,10 +15,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          94.06,
-          -34.94,
-          537.88,
-          537.88
+          241.0,
+          106.0,
+          338,
+          338
         ]
       }
     },
@@ -36,10 +36,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          66.37,
-          -46.63,
-          567.26,
-          567.26
+          128.77,
+          15.77,
+          442.46,
+          442.46
         ]
       }
     },
@@ -57,10 +57,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          78.06,
-          -20.44,
-          537.88,
-          537.88
+          137.23,
+          38.73,
+          419.55,
+          419.55
         ]
       }
     },
@@ -78,10 +78,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          88.97,
-          -22.03,
-          522.06,
-          522.06
+          146.4,
+          35.4,
+          407.21,
+          407.21
         ]
       }
     },
@@ -99,10 +99,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          92.65,
-          -32.85,
-          527.71,
-          527.71
+          150.7,
+          25.2,
+          411.61,
+          411.61
         ]
       }
     },
@@ -120,10 +120,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          89.97,
-          -19.03,
-          522.06,
-          522.06
+          171.0,
+          86.0,
+          358,
+          358
         ]
       }
     },
@@ -141,10 +141,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          74.32,
-          -27.68,
-          533.36,
-          533.36
+          132.99,
+          30.99,
+          416.02,
+          416.02
         ]
       }
     },
@@ -162,10 +162,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          85.36,
-          -16.64,
-          515.28,
-          515.28
+          142.04,
+          40.04,
+          401.92,
+          401.92
         ]
       }
     },
@@ -183,10 +183,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          114.94,
-          8.44,
-          479.12,
-          479.12
+          167.64,
+          61.14,
+          373.71,
+          373.71
         ]
       }
     },
@@ -204,10 +204,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          141.85,
-          27.35,
-          437.31,
-          437.31
+          189.95,
+          75.45,
+          341.1,
+          341.1
         ]
       }
     },
@@ -225,10 +225,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          142.04,
-          27.54,
-          433.92,
-          433.92
+          189.77,
+          75.27,
+          338.46,
+          338.46
         ]
       }
     },
@@ -246,10 +246,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          140.39,
-          17.39,
-          445.22,
-          445.22
+          189.36,
+          66.36,
+          347.27,
+          347.27
         ]
       }
     },
@@ -267,10 +267,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          99.7,
-          -45.3,
-          561.61,
-          561.61
+          161.48,
+          16.48,
+          438.06,
+          438.06
         ]
       }
     },
@@ -288,10 +288,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          99.47,
-          -6.03,
-          496.07,
-          496.07
+          154.04,
+          48.54,
+          386.93,
+          386.93
         ]
       }
     },
@@ -309,10 +309,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          60.77,
-          -147.23,
-          699.47,
-          699.47
+          137.71,
+          -70.29,
+          545.59,
+          545.59
         ]
       }
     },
@@ -330,10 +330,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          39.05,
-          -151.45,
-          711.9,
-          711.9
+          117.36,
+          -73.14,
+          555.28,
+          555.28
         ]
       }
     },
@@ -351,10 +351,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          27.47,
-          -160.53,
-          722.07,
-          722.07
+          106.9,
+          -81.1,
+          563.21,
+          563.21
         ]
       }
     },
@@ -372,10 +372,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          98.52,
-          -23.48,
-          529.97,
-          529.97
+          156.82,
+          34.82,
+          413.38,
+          413.38
         ]
       }
     },
@@ -393,10 +393,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          109.69,
-          -18.81,
-          509.63,
-          509.63
+          178.0,
+          50.0,
+          374,
+          374
         ]
       }
     },
@@ -414,10 +414,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          82.83,
-          -26.17,
-          559.35,
-          559.35
+          192.5,
+          79.5,
+          355,
+          355
         ]
       }
     },
@@ -435,10 +435,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          26.22,
-          -120.28,
-          691.56,
-          691.56
+          102.29,
+          -44.21,
+          539.42,
+          539.42
         ]
       }
     },
@@ -456,10 +456,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          54.88,
-          -65.12,
-          593.25,
-          593.25
+          120.14,
+          0.14,
+          462.74,
+          462.74
         ]
       }
     },
@@ -477,10 +477,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          50.71,
-          -67.79,
-          613.59,
-          613.59
+          118.2,
+          -0.3,
+          478.6,
+          478.6
         ]
       }
     },
@@ -498,10 +498,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          84.18,
-          -47.82,
-          570.65,
-          570.65
+          146.95,
+          14.95,
+          445.11,
+          445.11
         ]
       }
     },
@@ -519,10 +519,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          128.14,
-          -29.36,
-          501.72,
-          501.72
+          183.33,
+          25.83,
+          391.34,
+          391.34
         ]
       }
     },
@@ -540,10 +540,10 @@ window.TEBURASI_MENU = {
         "width": 720,
         "height": 480,
         "crop": [
-          65.66,
-          -41.84,
-          579.69,
-          579.69
+          129.43,
+          21.93,
+          452.16,
+          452.16
         ]
       }
     },
@@ -561,10 +561,10 @@ window.TEBURASI_MENU = {
         "width": 900,
         "height": 600,
         "crop": [
-          -56.24,
-          -224.74,
-          1012.48,
-          1012.48
+          55.13,
+          -113.37,
+          789.73,
+          789.73
         ]
       }
     },
@@ -582,10 +582,10 @@ window.TEBURASI_MENU = {
         "width": 481,
         "height": 782,
         "crop": [
-          -174.21,
-          -23.71,
-          829.42,
-          829.42
+          -82.97,
+          67.53,
+          646.95,
+          646.95
         ]
       }
     },
@@ -603,98 +603,149 @@ window.TEBURASI_MENU = {
         "width": 861,
         "height": 785,
         "crop": [
-          -28.78,
-          -66.28,
-          917.56,
-          917.56
+          72.15,
+          34.65,
+          715.7,
+          715.7
         ]
       }
     }
   ],
   "pages": [
     {
-      "src": "assets/menu-pages/01.jpg",
-      "title": "Стартеры",
+      "src": "assets/basilik/menu-pages/01.webp",
+      "title": "Дастархан",
       "width": 480,
-      "height": 853
+      "height": 853,
+      "itemIds": [
+        "plov",
+        "manty",
+        "dish-a7bd5ba6",
+        "dish-e6ed66d0"
+      ],
+      "demoPrices": {
+        "plov": 590,
+        "manty": 490,
+        "dish-a7bd5ba6": 560,
+        "dish-e6ed66d0": 1250
+      },
+      "fullSrc": "assets/basilik/menu-pages/01.svg"
     },
     {
-      "src": "assets/menu-pages/02.jpg",
-      "title": "Горячие закуски",
+      "src": "assets/basilik/menu-pages/02.webp",
+      "title": "Из казана",
       "width": 480,
-      "height": 853
+      "height": 853,
+      "itemIds": [
+        "kazan-kebab",
+        "dish-e05f0b9e",
+        "dish-2650e5c9",
+        "dish-e7bbc24c"
+      ],
+      "demoPrices": {
+        "kazan-kebab": 690,
+        "dish-e05f0b9e": 650,
+        "dish-2650e5c9": 1190,
+        "dish-e7bbc24c": 1090
+      },
+      "fullSrc": "assets/basilik/menu-pages/02.svg"
     },
     {
-      "src": "assets/menu-pages/03.jpg",
-      "title": "Цукемоно",
+      "src": "assets/basilik/menu-pages/03.webp",
+      "title": "Горячие супы",
       "width": 480,
-      "height": 853
+      "height": 853,
+      "itemIds": [
+        "dish-cc643972",
+        "shurpa",
+        "dish-555c7d64",
+        "dish-0a018072",
+        "mastava",
+        "lagman"
+      ],
+      "demoPrices": {
+        "dish-cc643972": 450,
+        "shurpa": 420,
+        "dish-555c7d64": 410,
+        "dish-0a018072": 390,
+        "mastava": 390,
+        "lagman": 460
+      },
+      "fullSrc": "assets/basilik/menu-pages/03.svg"
     },
     {
-      "src": "assets/menu-pages/04.jpg",
-      "title": "Рамены и агемоно",
+      "src": "assets/basilik/menu-pages/04.webp",
+      "title": "С дымком",
       "width": 480,
-      "height": 853
+      "height": 853,
+      "itemIds": [
+        "lyulya",
+        "shashlik",
+        "dish-394f54db",
+        "dish-e505ba1f"
+      ],
+      "demoPrices": {
+        "lyulya": 390,
+        "shashlik": 590,
+        "dish-394f54db": 560,
+        "dish-e505ba1f": 420
+      },
+      "fullSrc": "assets/basilik/menu-pages/04.svg"
     },
     {
-      "src": "assets/menu-pages/05.jpg",
-      "title": "Горячее и десерты",
+      "src": "assets/basilik/menu-pages/05.webp",
+      "title": "Из тандыра",
       "width": 480,
-      "height": 853
+      "height": 853,
+      "itemIds": [
+        "samsa",
+        "lepeshka"
+      ],
+      "demoPrices": {
+        "samsa": 150,
+        "lepeshka": 100
+      },
+      "fullSrc": "assets/basilik/menu-pages/05.svg"
     },
     {
-      "src": "assets/menu-pages/06.jpg",
-      "title": "Коктейли в банках",
+      "src": "assets/basilik/menu-pages/06.webp",
+      "title": "Свежесть к столу",
       "width": 480,
-      "height": 853
+      "height": 853,
+      "itemIds": [
+        "dish-0dc8d7ff",
+        "dish-39b4a9e2",
+        "dish-7e17e642",
+        "shakarop",
+        "dish-d4b9d7e9",
+        "dish-3f6375dc"
+      ],
+      "demoPrices": {
+        "dish-0dc8d7ff": 290,
+        "dish-39b4a9e2": 290,
+        "dish-7e17e642": 350,
+        "shakarop": 290,
+        "dish-d4b9d7e9": 190,
+        "dish-3f6375dc": 250
+      },
+      "fullSrc": "assets/basilik/menu-pages/06.svg"
     },
     {
-      "src": "assets/menu-pages/07.jpg",
-      "title": "Коктейли, вино и чай",
+      "src": "assets/basilik/menu-pages/07.webp",
+      "title": "К чаю",
       "width": 480,
-      "height": 853
-    },
-    {
-      "src": "assets/menu-pages/08.jpg",
-      "title": "Крепкое и горячие напитки",
-      "width": 480,
-      "height": 853
-    },
-    {
-      "src": "assets/menu-pages/09.jpg",
-      "title": "Сётю и десертное саке",
-      "width": 480,
-      "height": 853
-    },
-    {
-      "src": "assets/menu-pages/10.jpg",
-      "title": "Саке: базовый премиум",
-      "width": 480,
-      "height": 853
-    },
-    {
-      "src": "assets/menu-pages/11.jpg",
-      "title": "Саке: суперпремиум",
-      "width": 480,
-      "height": 853
-    },
-    {
-      "src": "assets/menu-pages/12.jpg",
-      "title": "Саке: премиум и сеты",
-      "width": 480,
-      "height": 853
-    },
-    {
-      "src": "assets/menu-pages/13.jpg",
-      "title": "Умэсю и игристое саке",
-      "width": 480,
-      "height": 853
-    },
-    {
-      "src": "assets/menu-pages/14.jpg",
-      "title": "Настойки и пиво",
-      "width": 480,
-      "height": 853
+      "height": 853,
+      "itemIds": [
+        "dish-9d78cd68",
+        "dish-080d3ddd",
+        "dish-4c724774"
+      ],
+      "demoPrices": {
+        "dish-9d78cd68": 290,
+        "dish-080d3ddd": 150,
+        "dish-4c724774": 220
+      },
+      "fullSrc": "assets/basilik/menu-pages/07.svg"
     }
   ],
   "foodCategories": [
@@ -705,5 +756,5 @@ window.TEBURASI_MENU = {
     "Салаты",
     "Десерты"
   ],
-  "archive": true
+  "archive": false
 };

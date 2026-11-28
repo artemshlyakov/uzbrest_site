@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <g fill="none" stroke="#263b2e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- A suzani flower, spaced like the original ink ornaments. -->
+    <g transform="translate(90 91) rotate(-8)">
+      <path d="M0-16C-23-46-41-27-17-5c-35 1-36 29-5 25-20 28 4 44 21 15 18 28 42 10 21-17 34 4 34-25 1-25 23-22 2-40-21-9Z"/>
+      <path d="M0-8C-13-24-23-15-10-3c-19 0-20 15-3 13-11 15 2 24 11 9 10 15 23 5 12-10 18 2 18-13 0-13C23-16 12-25 0-8Z"/>
+      <circle r="5"/>
+      <path d="M-34 36c-12 7-22 7-30 2m98-2c12 7 22 7 30 2"/>
+    </g>
+    <!-- A steaming tea piala. -->
+    <path d="M345 71q-8-16 2-31m13 34q-12-17-2-34m14 36q-6-16 3-30M322 92q37-20 72 1m-72 0q5 39 36 39t37-39M345 134h27"/>
+    <path d="m333 105 8 7 8-7 9 8 8-8 9 7 8-7m-30 18 5-5 5 5"/>
+    <!-- A triangular samsa, with a folded edge and sesame seeds. -->
+    <g transform="translate(157 218) rotate(10 39 28)">
+      <path d="M34 1c3-4 8-4 11 1l34 51c3 5 1 9-6 9H7c-7 0-9-4-6-9L34 1Z"/>
+      <path d="m39 7 2 36 29 12M8 55l30-12m-1-29 1 5m-17 21 3-3m29 0 3 4m-22-9 1 4m13 16 5 1m-30 0 5-1"/>
+    </g>
+    <!-- An Uzbek tea pot, replacing the noodle bowl and chopsticks. -->
+    <g transform="translate(394 306) rotate(-7 40 36)">
+      <path d="M20 29c-2-18 11-28 28-26 18 2 25 17 23 33-2 21-10 35-29 34-20-1-27-18-22-41Zm8-24 3-7 26 1 3 7M32 73h26M20 26C-5 5-14 48 16 51M71 28c11 0 16-12 20-16l7 6c-9 10-8 27-27 29"/>
+      <path d="m31 40 13-12 14 14-14 13-13-15Zm8 1 5-5 6 6-6 5-5-6Z"/>
+    </g>
+    <!-- A small tile rosette. -->
+    <g transform="translate(240 479) rotate(8)">
+      <path d="m0-25 8 10 12-5-2 14L30 0 18 7l2 14-13-4L0 30l-8-13-13 4 3-14L-30 0l12-6-2-14 12 5 8-10Z"/>
+      <path d="m0-12 7 6 6 6-6 7-7 6-6-6-7-7 7-6 6-6Z"/>
+      <circle r="4"/>
+    </g>
+    <!-- A pomegranate, drawn with the same light line as the tableware. -->
+    <g transform="translate(466 444) rotate(8 21 29)">
+      <path d="m20 1-10-7 2 12C-4 15-8 34-1 47c7 15 24 21 38 13 15-8 20-29 9-42-5-7-11-10-21-11l5-13-10 7Z"/>
+      <path d="M17 13C2 20 0 38 11 47c11 10 28 5 31-10M16 21l4 6-5 4-3-5Zm12-4 5 6-5 5-4-6Zm-3 16 4 6-5 4-4-5Zm11-4 4 6-5 4-3-5Zm-22 8 3 6-4 3-3-5Z"/>
+    </g>
+  </g>
+  <g fill="#263b2e">
+    <circle cx="120" cy="190" r="1.6"/><circle cx="127" cy="195" r="1"/><circle cx="116" cy="201" r="1.2"/>
+    <circle cx="284" cy="358" r="1.5"/><circle cx="292" cy="354" r="1"/><circle cx="289" cy="365" r="1.3"/>
+    <circle cx="520" cy="60" r="1.2"/><circle cx="525" cy="68" r="1.7"/><circle cx="531" cy="61" r="1"/>
+  </g>
+</svg>

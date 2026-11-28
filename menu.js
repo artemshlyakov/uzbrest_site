@@ -206,7 +206,7 @@
         button.setAttribute('aria-label', 'Открыть лист: ' + page.title);
         const image = document.createElement('img');
         image.src = asset(page.src);
-        image.alt = page.title + ' — архив оригинального меню Teburasi';
+        image.alt = page.title + (data.archive ? ' — архив оригинального меню Teburasi' : ' — рисованное меню Чайханы Базилик');
         image.width = page.width;
         image.height = page.height;
         image.loading = 'lazy';

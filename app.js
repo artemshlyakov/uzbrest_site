@@ -79,7 +79,7 @@ const photos = [
   ['basilik/dastarkhan.webp', 'За общим столом — иллюстрация Базилика'],
   ['basilik/vladimir.webp', 'Владимир с восточным акцентом']
 ];
-const drawings = window.TEBURASI_MENU.pages.map(page => [page.src.replace(/^assets\//, ''), page.title]);
+const drawings = window.TEBURASI_MENU.pages.map(page => [(page.fullSrc || page.src).replace(/^assets\//, ''), page.title]);
 let galleryItems = photos;
 let galleryIndex = 0;
 function renderGallery() {

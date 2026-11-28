@@ -1,0 +1,137 @@
+[
+  {
+    "src": "assets/basilik/menu-pages/01.webp",
+    "title": "Дастархан",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "plov",
+      "manty",
+      "dish-a7bd5ba6",
+      "dish-e6ed66d0"
+    ],
+    "demoPrices": {
+      "plov": 590,
+      "manty": 490,
+      "dish-a7bd5ba6": 560,
+      "dish-e6ed66d0": 1250
+    },
+    "fullSrc": "assets/basilik/menu-pages/01.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/02.webp",
+    "title": "Из казана",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "kazan-kebab",
+      "dish-e05f0b9e",
+      "dish-2650e5c9",
+      "dish-e7bbc24c"
+    ],
+    "demoPrices": {
+      "kazan-kebab": 690,
+      "dish-e05f0b9e": 650,
+      "dish-2650e5c9": 1190,
+      "dish-e7bbc24c": 1090
+    },
+    "fullSrc": "assets/basilik/menu-pages/02.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/03.webp",
+    "title": "Горячие супы",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-cc643972",
+      "shurpa",
+      "dish-555c7d64",
+      "dish-0a018072",
+      "mastava",
+      "lagman"
+    ],
+    "demoPrices": {
+      "dish-cc643972": 450,
+      "shurpa": 420,
+      "dish-555c7d64": 410,
+      "dish-0a018072": 390,
+      "mastava": 390,
+      "lagman": 460
+    },
+    "fullSrc": "assets/basilik/menu-pages/03.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/04.webp",
+    "title": "С дымком",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "lyulya",
+      "shashlik",
+      "dish-394f54db",
+      "dish-e505ba1f"
+    ],
+    "demoPrices": {
+      "lyulya": 390,
+      "shashlik": 590,
+      "dish-394f54db": 560,
+      "dish-e505ba1f": 420
+    },
+    "fullSrc": "assets/basilik/menu-pages/04.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/05.webp",
+    "title": "Из тандыра",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "samsa",
+      "lepeshka"
+    ],
+    "demoPrices": {
+      "samsa": 150,
+      "lepeshka": 100
+    },
+    "fullSrc": "assets/basilik/menu-pages/05.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/06.webp",
+    "title": "Свежесть к столу",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-0dc8d7ff",
+      "dish-39b4a9e2",
+      "dish-7e17e642",
+      "shakarop",
+      "dish-d4b9d7e9",
+      "dish-3f6375dc"
+    ],
+    "demoPrices": {
+      "dish-0dc8d7ff": 290,
+      "dish-39b4a9e2": 290,
+      "dish-7e17e642": 350,
+      "shakarop": 290,
+      "dish-d4b9d7e9": 190,
+      "dish-3f6375dc": 250
+    },
+    "fullSrc": "assets/basilik/menu-pages/06.svg"
+  },
+  {
+    "src": "assets/basilik/menu-pages/07.webp",
+    "title": "К чаю",
+    "width": 480,
+    "height": 853,
+    "itemIds": [
+      "dish-9d78cd68",
+      "dish-080d3ddd",
+      "dish-4c724774"
+    ],
+    "demoPrices": {
+      "dish-9d78cd68": 290,
+      "dish-080d3ddd": 150,
+      "dish-4c724774": 220
+    },
+    "fullSrc": "assets/basilik/menu-pages/07.svg"
+  }
+]
